@@ -4,7 +4,7 @@ import classes from './AboutUs.module.css';
 
 const AboutUs = () => {
   return (
-    <div>
+    <div id={classes.aboutUs}>
       AboutUs
     </div>
   );

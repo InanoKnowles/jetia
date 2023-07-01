@@ -1,0 +1,38 @@
+#teamMembers {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#teamMembers .teamPhotos {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 90%;
+  height: 500px;
+}
+
+#teamMembers .teamPhotos .photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 221, 221);
+  border: 1px solid black;
+  border-radius: 100px;
+  height: 230px;
+  width: 170px;
+}
+
+.photo2,
+.photo4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#teamMembers h4 {
+  margin-bottom: 0;
+}
