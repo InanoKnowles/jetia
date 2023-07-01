@@ -14,7 +14,7 @@ const TeamMember = () => {
 						</p>
 					</div>
 				</div>
-				<div className={`${classes.memberDesc} `}>
+				<div className={`${classes.memberDescOdd} `}>
 					w Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -50,7 +50,7 @@ const TeamMember = () => {
 						</p>
 					</div>
 				</div>
-				<div className={classes.memberDescodd}>
+				<div className={classes.memberDescOdd}>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -64,7 +64,7 @@ const TeamMember = () => {
 						<p>
 							<span className={classes.memberName}>ANKITA</span>
 							<br></br>
-							<span id={classes.consultancyName}>Project Manager</span>
+							<span id={classes.consultancyName}>DataAnalyst</span>
 						</p>
 					</div>
 				</div>

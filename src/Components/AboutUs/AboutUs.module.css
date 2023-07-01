@@ -1,37 +1,50 @@
 #aboutUs {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: left;
-	overflow: hidden;
-	padding: 160px 130px 80px;
-	align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  overflow: hidden;
+  padding: 160px 186px 80px;
 }
+
 #supportText {
-	font-family: "Cormorant Garamond", serif;
-	font-weight: bolder;
-	text-transform: uppercase;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bolder;
+  margin-top: 250px;
+  font-size: 50px;
 }
+
+#supportText .circle {
+  font-size: 2.7rem;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
 #heading {
-	font-family: "Cormorant Garamond", serif;
-	font-weight: 600;
-	font-size: 60px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4.5rem;
+  margin-top: 55px;
 }
 
 h2 .circle {
-	margin: 0 0px;
-	color: grey;
-	font-weight: lighter;
-	
+  font-size: 4rem;
+  display: inline;
+  margin-left: 15px;
 }
 
 #whoWeAre {
-	font-family: "Cormorant Garamond", serif;
-	font-weight: 200;
-	font-size: 45px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 45px;
+	margin: 200px 0 100px;
 }
+
 .supportTextDesc {
-	padding-right: 5px;
+  padding-right: 5px;
+}
+
+
+#decription {
+	width: 75%;
 }

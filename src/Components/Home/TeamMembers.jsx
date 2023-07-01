@@ -10,7 +10,7 @@ const TeamMembers = () => {
         <div className={`${classes.photo1}`}>
           <div className={`${classes.photo} ${classes.p1}`}></div>
           <h4>ANKITA</h4>
-          <p>Project Manager</p>
+          <p>Data Analyst</p>
         </div>
 
         <div className={`${classes.photo2}`}>

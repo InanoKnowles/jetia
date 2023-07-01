@@ -5,7 +5,7 @@ import classes from './CaseStudies.module.css';
 
 const CaseStudies = () => {
   return (
-    <div className={classes.carouselCaseStudies}>
+    <div id={classes.caseStudies}>
       <h1 className={classes.heading}>
         LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT
         <span className={classes.circle}>◯</span>
