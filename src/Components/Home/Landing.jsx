@@ -4,7 +4,7 @@ import classes from './Landing.module.css';
 
 const LandingPage = () => {
   return (
-    <div id={classes.landingPage}>
+    <div id={classes.landing}>
     
       <div className={classes.text}>
       <p>Located in Sydney</p>

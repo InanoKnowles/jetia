@@ -1,4 +1,4 @@
-#landingPage {
+#landing {
   display: flex;
   background-color: rgb(221, 221, 221);
   height: 600px;
@@ -6,9 +6,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
 }
 
-#landingPage .text {
+#landing .text {
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -23,12 +24,11 @@
   height: 86px;
 }
 
-#landingPage p {
-  /* margin: 0 10px; */
+#landing p {
   display: inline-block;
   margin: 20px 0;
 }
 
-#landingPage .summary {
-  width: 500px;
+#landing .summary {
+  width: 55%;
 }
