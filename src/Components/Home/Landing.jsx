@@ -1,6 +1,6 @@
 import React from 'react';
-
 import Button from '../UI/Button'
+import { Link } from 'react-router-dom';
 
 import classes from './Landing.module.css';
 import '../../App.css'
@@ -41,7 +41,7 @@ const LandingPage = () => {
         scelerisque varius.
       </p>
 
-      <Button>Learn More</Button>
+      <Link to="/aboutus"><Button>Learn More</Button></Link>
     </div>
   );
 };
