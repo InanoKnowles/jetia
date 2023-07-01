@@ -1,0 +1,84 @@
+.photo1,
+.photo2,
+.photo3,
+.photo4 {
+	border: 1px solid;
+	background-color: rgb(221, 221, 221);
+	border-radius: 100px;
+	height: 230px;
+	width: 170px;
+}
+.photo1 {
+	border-color: #f18639;
+	background-image: url(../images/teamPhoto/tina.jpg);
+	background-size: cover;
+	transition: box-shadow 0.2s linear;
+}
+.photo2 {
+	border-color: #dd6c90;
+	background-image: url(../images/teamPhoto/esther.png);
+	background-size: cover;
+	transition: box-shadow 0.2s linear;
+}
+.photo3 {
+	border-color: #676a46;
+	background-image: url(../images/teamPhoto/inano.jpeg);
+	background-size: cover;
+	transition: box-shadow 0.2s linear;
+}
+.photo4 {
+	border-color: #b8a28a;
+	background-size: cover;
+	transition: box-shadow 0.2s linear;
+	background-image: url(../images/teamPhoto/ankita.jpeg);
+}
+
+.photoWrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	width: 350px;
+}
+.teamMembers {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(221, 221, 221);
+}
+.member {
+	display: flex;
+	flex-wrap: nowrap;
+	align-content: flex-start;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.memberEven {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+#consultancyName {
+	display: flex;
+	align-items: center;
+	font-size: 10px;
+}
+.memberName {
+	font-family: "Cormorant Garamond", serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.memberDescEven {
+	text-align: right;
+}

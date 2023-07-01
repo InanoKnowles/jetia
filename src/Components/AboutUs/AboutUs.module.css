@@ -1,11 +1,18 @@
 #aboutUs {
 	position: relative;
-	top: 190px;
-	height: 2000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	overflow: hidden;
+	padding: 160px 130px 80px;
+	align-items: center;
 }
 #supportText {
 	font-family: "Cormorant Garamond", serif;
 	font-weight: bolder;
+	text-transform: uppercase;
 }
 #heading {
 	font-family: "Cormorant Garamond", serif;
@@ -16,11 +23,15 @@
 h2 .circle {
 	margin: 0 0px;
 	color: grey;
-	font-weight: 100;
+	font-weight: lighter;
+	
 }
 
 #whoWeAre {
 	font-family: "Cormorant Garamond", serif;
 	font-weight: 200;
 	font-size: 45px;
+}
+.supportTextDesc {
+	padding-right: 5px;
 }

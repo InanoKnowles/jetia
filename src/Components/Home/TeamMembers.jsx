@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import classes from './TeamMembers.module.css';
+import classes from "./TeamMembers.module.css";
 
 const TeamMembers = () => {
   return (
@@ -33,6 +33,7 @@ const TeamMembers = () => {
       </div>
     </div>
   );
+
 };
 
 export default TeamMembers;

@@ -8,29 +8,29 @@ const OurServices = () => {
 			<ul>
 				<li>Market Research</li>
 				<li>Data Analysis</li>
-				<li >Branding Strategy</li>
+				<li className={`${classes} orange`}>Branding Strategy</li>
 			</ul>
 
 			<ul>
-				<li>Digital Creative</li>
+				<li className={`${classes} blue`}>Digital Creative</li>
 				<li>Product Design</li>
 				<li>Service Design</li>
 			</ul>
 
 			<ul>
 				<li>Art Direction</li>
-				<li>Visual Identity</li>
+				<li className={`${classes} armyGreen`}>Visual Identity</li>
 				<li>Brand GuideLines</li>
 			</ul>
 
 			<ul>
 				<li>Web Accessibility</li>
-				<li>Interface Design</li>
+				<li className={`${classes} pink`}>Interface Design</li>
 				<li>User Research</li>
 			</ul>
 
 			<ul>
-				<li>Mobile Design</li>
+				<li className={`${classes} taupe`}>Mobile Design</li>
 				<li>Content Production</li>
 				<li>Copywriting</li>
 			</ul>
