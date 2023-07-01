@@ -2,6 +2,7 @@ import React from "react";
 
 import classes from "./AboutUs.module.css";
 import OurServices from "./OurServices";
+import MeetTeam from "./MeetTeam";
 
 const AboutUs = () => {
 	return (
@@ -26,7 +27,8 @@ const AboutUs = () => {
 				We are an international team of passionate designers, developers, brand
 				strategists & data analysts.
 			</p>
-
+			
+			<MeetTeam></MeetTeam>
 			<h3 id={classes.supportText}>
 				Wheather You're starting out or looking to Expand Presence.We are here
 				to provideyou with the tools,strategies,and support you need.
