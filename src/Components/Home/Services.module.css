@@ -20,7 +20,8 @@
 .list {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 90px;
+  margin: 90px auto 0;
+  width: 90%;
 }
 
 #services .block {

@@ -10,7 +10,7 @@ const AboutUs = () => {
 			<section id={classes.whoweare}>
 				<div id={classes.empowerSection}>
 					<h2 id={classes.heading}>
-						We empower female entrepreneurs to thrive in the digital world
+					WE EMPOWER FEMALE ENTREPRENEURS TO THRIVE IN THE DIGITAL WORLD
 						<span className={classes.circle}>◯</span>
 					</h2>
 				</div>
@@ -24,16 +24,17 @@ const AboutUs = () => {
 				</p>
 			</section>
 			<p id={classes.whoWeAre}>
-				We are an international team of passionate designers, developers, brand
-				strategists & data analysts.
+				We are an international team of passionate Designers, Developers, Brand
+				Strategists & Data Analysts.
 			</p>
 
 			<MeetTeam></MeetTeam>
+			
 			<h3 id={classes.supportText}>
-				Wheather you're starting out or looking to expand presence. We are here
-				to provide you with the tools, strategies and support you need.
+			Wheather you're starting out or looking to expand presence, we are here to provide you with the tools, strategies and support you need
 				<span className={classes.circle}>◯</span>
 			</h3>
+
 			<OurServices></OurServices>
 		</div>
 	);

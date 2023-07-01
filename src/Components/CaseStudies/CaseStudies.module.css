@@ -1,10 +1,21 @@
+#caseStudies  {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 186px 80px;
+}
+
 .heading {
-  margin: 10px 0 170px 50px;
+  margin-bottom: 170px;
   padding: 5px;
   font-family: 'Cormorant Garamond', serif;
   font-size: 4.5rem; 
-  padding-bottom: 5px;
   text-align: left;
+  margin-top: 55px;
 }
 
 .swiper {
@@ -17,23 +28,13 @@
   transition: border 0.2s linear, box-shadow 0.3s linear;
 }
 
-.carouselCaseStudies  {
-  padding-top: 200px;
-  /* margin-top: 60px; */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: stretch;
-  justify-content: center;
-  align-items: center;
-}
 
-.carouselCaseStudies .swiper:hover {
+#caseStudies .swiper:hover {
   border: 5px solid #5C69B8;
   box-shadow: 0 0 5px 3px lightgray;
 }
 
-.carouselCaseStudies .swiper {
+#caseStudies .swiper {
   max-width: 900px;
   min-width: 200px;
   align-items: center;
