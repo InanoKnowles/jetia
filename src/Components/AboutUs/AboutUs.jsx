@@ -27,11 +27,11 @@ const AboutUs = () => {
 				We are an international team of passionate designers, developers, brand
 				strategists & data analysts.
 			</p>
-			
+
 			<MeetTeam></MeetTeam>
 			<h3 id={classes.supportText}>
-				Wheather You're starting out or looking to Expand Presence.We are here
-				to provideyou with the tools,strategies,and support you need.
+				Wheather you're starting out or looking to expand presence. We are here
+				to provide you with the tools, strategies and support you need.
 				<span className={classes.circle}>◯</span>
 			</h3>
 			<OurServices></OurServices>
