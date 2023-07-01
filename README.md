@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# COLLAB-AHTON
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As part of [General Assembly Australia's](https://generalassemb.ly/) :star2: first ever :star2: alumni 23 hour collab-athon:sunglasses: our team JETIA was formed.
 
-## Available Scripts
+### :link: CHECK OUT OUR WEBSITE [J E T I A](www.google.com) :link:
 
-In the project directory, you can run:
+To access the website click on JETIA :point_up::point_up::point_up::point_up:
+Designed to be responsive on Mobiles, Tablets and Browsers across ios and andriod.
 
-### `npm start`
+# MEET THE TEAM
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Jessica Guntoro](): :cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket::cricket:
+- [Esther Wei](https://www.linkedin.com/in/estherwaydesign/): Branding strategist to UX Designing Queen. This practical and systematic approach to turning passion into a fulfilling career was a perfect fit. Using empathy and a holistic perspective, they learned how to find the right problem, converse the challenge to opportunities, and create resilient and sustainable solutions for end-users, customers, and society. Leading and ONLY UX Designer of our team.
+- [Tina Nhi Vo](https://www.linkedin.com/in/tinanhivo/): From Hospitality all-star to Software Engineering Boss. Leading meaningful, beautiful and fun development designs that have useful impacts on businesses. Leading Software Engineer of our team.
+- [Inano Knowles](https://www.linkedin.com/in/inanoknowles/): Sales extrodinare to Software Engineerer, Loves designing and developing software solutions.
+- [Ankita Sawrav](https://www.linkedin.com/in/ankita-sawrav/): Software tester transitioning from a beautiful career-break as a full time Mother to become a Software Engineer. Experienced and passionate about learning more about new technology in the emerging tech industry and build an applications that contributes and make a difference.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## THE PROJECT BRIEF
 
-### `npm test`
+Create your own product development agency website aimed at potential clients looking for product development services. Make sure to showcase the unique aspects of your teams skills, work and projects. Primarily focus on the UI and Styling of content by your UX designer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### SCOPE
 
-### `npm run build`
+- 2 to 3 pages: Visitors to your website should be able to understand who you are, what you do, your servives specialties and past works (whether real or fictious).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### MINIMUM CONTENT
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Landing page providing information about your agency, skills/services and the kind of work you do
+- A Projects page (or section) showing off your projects
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### STRETCH FEATURES
 
-### `npm run eject`
+- About us page with detailed roles, interests and values
+- A blog, headlines of articles the team has written
+- A testimonial page displaying feedback from clients
+- A Services page - Agency's offerings
+- A Case Study Page - Deep dive into an innovative project your agency has delivered
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### ABOUT THE USERS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Potential clients interested in your software development and UX design services
+- Visitors looking to learn about your agency and the team
+- Technically savvy, digital native
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### NON FUNCTIONAL REQUIREMENTS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Mobile-first, responsive, browser-based site
+- Must be accessible: [a11y checklist](https://a11yproject.com/checklist)
+- Don’t worry about a particular operating system
+- The website design should reflect the unique branding developed by the team
 
-## Learn More
+## OUR TEAM'S WORKFLOW
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### FRIDAY 30TH JUNE 2023
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##### :fire_engine: CHALLENGES TODAY: :fire_engine:
 
-### Code Splitting
+- One member pulled out before meeting the rest of the team
+  **6:00PM to 6:30PM - Meet & Greet with your group:**
+  Join us in the webinar first, and from there you’ll be allocated into your groups and can practise using the huddle function to meet your group, get to know each other a little, and have a quick chat about the brief.
+  We spent this time introducing ourselves, when we graduated from GA, which class we took and the tech stack we were all confident in using.
+  **6:30PM to 7:00PM - Introduction to the brief**
+  This will be your formal introduction to the brief. We’ll give you all the details of what we expect to see on Sunday, and you’ll be able to ask any questions. We’ll also explain how to speak with the mentors throughout the weekend.
+  Since 2 of our Software Engineers are confident in using REACT the team decided they would be the ones to lead and mentor the Junior Software Engineers who weren't comfortable with using React.
+  The team was quick to hunt down reference material and define the kind of agency we wanted to be, really focusing on **Empowering Women in Tech**.
+  **7:00PM to 8:00PM - Panel discussion**
+  As soon as the panel was over our team went straight to work with planning our roles and MVP.
+  ![Screenshot 2023-06-30 at 8 11 57 pm](https://github.com/tinaaiscoding/jetia/assets/116997107/eaf01bca-5096-43f9-9d5a-95c649b4304a)
+  ![Screenshot 2023-06-30 at 10 03 44 pm](https://github.com/tinaaiscoding/jetia/assets/116997107/621a7e75-24a3-48eb-97f4-a78b307301e1)
+  ![Screenshot 2023-06-30 at 9 34 01 pm](https://github.com/tinaaiscoding/jetia/assets/116997107/e67cbca2-fc71-417b-960e-6aac6ab92bf1)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### SATURDAY 1ST 2023
 
-### Analyzing the Bundle Size
+##### :fire_engine: CHALLENGES TODAY: :fire_engine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- One member struggled to get their part completed due to not knowing how to use REACT
+- One of the most knowledgable members wasn't available until late into the evening so the remaining experienced Dev took on the heaviest workload on top of being the mentor for the junior dev of the team
+- The only UX Designer had a huge workload to do alone
+- Struggling **HARD** with getting the website responsive
+- Fell behind schedule to the point that the team fears that there is nothing to present on Sunday
+- MVP has not been hit yet
+  MORNING SPRINT QUESTIONS:
 
-### Making a Progressive Web App
+1.  What did you do since we last spoke?
+2.  What problems did you run into?
+3.  Esther's UX approval?
+4.  What needs to be changed?
+5.  Do you need to pair up with someone or can you do it alone?
+    ![Screenshot 2023-07-01 at 4 35 00 pm](https://github.com/tinaaiscoding/jetia/assets/116997107/22885580-4c49-4185-9bb0-2ac7518ef22a)
+    ![Screenshot 2023-07-01 at 1 11 18 pm](https://github.com/tinaaiscoding/jetia/assets/116997107/b0fe511d-9f1b-4e44-813e-546fa91c4dc7)
+    We made sure that we approached each other with the understanding that we are all at different levels in our Tech Journey's and chose to use this as a chance to learn how we can share our experiences and strengths.
+    Our Logo also was born today:
+    ![Screenshot 2023-07-01 at 4 45 55 pm](https://github.com/tinaaiscoding/jetia/assets/116997107/c673ec5f-6390-4186-8819-c6cfb8b6ffa2)
+    Esther drilled hard to get the UX Designs done for the team check it out!!
+    ![Screenshot 2023-07-02 at 7 54 34 am](https://github.com/tinaaiscoding/jetia/assets/116997107/faded48a-0880-4088-b707-f56ae637f057)
+    ![Screenshot 2023-07-02 at 7 55 33 am](https://github.com/tinaaiscoding/jetia/assets/116997107/334bce62-1797-44ee-809f-98964a2b335e)
+    ![Screenshot 2023-07-02 at 7 56 12 am](https://github.com/tinaaiscoding/jetia/assets/116997107/51fd2260-fb78-45e0-9e23-1b86a48cd683)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### SHOUT OUT TO [JAYJ EATON](https://www.linkedin.com/in/jayj-eaton/):raised_hands: :beers:
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you so much for your help, when we got stuck on _T H A T_ part our team morale started to crumble, you don't know how much you saved us with your guidance.
