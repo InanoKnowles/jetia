@@ -1,13 +1,13 @@
-import classes from "./AboutUs.module.css";
+import React from "react";
+import classes from "./MeetTeam.module.css";
+import TeamMember from "./TeamMembers";
 
-const MeetTeam = () =>{
-    return(
-        <div id={classes.MeetTeam}>
+const MeetTeam = () => {
+	return (
+		<div id={classes.meetTeam}>
+			<TeamMember></TeamMember>
+		</div>
+	);
+};
 
-            
-        </div>
-    )
-
-}
-
-export default MeetTeam
+export default MeetTeam;
