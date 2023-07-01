@@ -2,6 +2,7 @@
   margin-right: 60px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 #enquiryForm label {

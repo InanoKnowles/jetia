@@ -13,7 +13,7 @@ import case4 from '../images/caseStudies/case4.png';
 const HighlightCase = () => {
   return (
     <div id={classes.highlightCase}>
-      <h2>Highlight Case</h2>
+      <h2>Highlights</h2>
       <div className={classes.swiperDiv}>
         <Swiper className={`mySwiper ${classes.swiper}`} spaceBetween={50}>
           <SwiperSlide className={classes.case}>
