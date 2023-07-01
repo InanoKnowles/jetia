@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../UI/Button'
 
 import classes from './EnquiryForm.module.css';
 
@@ -33,7 +34,7 @@ const EnquiryForm = () => {
           <textarea type="text" />
         </div>
 
-        <button>Send</button>
+        <Button>Send</Button>
       </form>
     </div>
   );

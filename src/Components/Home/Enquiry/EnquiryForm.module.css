@@ -5,6 +5,11 @@
   width: 50%;
 }
 
+#enquiryForm form {
+  display: flex;
+  flex-direction: column;
+}
+
 #enquiryForm label {
   display: block;
   font-size: 0.7rem;
@@ -36,7 +41,7 @@
 }
 
 #enquiryForm .formRow {
-  margin: 20px 0;
+  margin: 5px 0;
 }
 
 #enquiryForm button {

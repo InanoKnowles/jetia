@@ -1,7 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import Button from '../UI/Button'
+import Button from '../UI/Button';
+import { Link } from 'react-router-dom';
 
 import classes from './HighlightCase.module.css';
 
@@ -14,6 +15,7 @@ const HighlightCase = () => {
   return (
     <div id={classes.highlightCase}>
       <h2>Highlights</h2>
+
       <div className={classes.swiperDiv}>
         <Swiper className={`mySwiper ${classes.swiper}`} spaceBetween={50}>
           <SwiperSlide className={classes.case}>
@@ -21,24 +23,30 @@ const HighlightCase = () => {
               <img className={classes.case1} src={case1} alt="" />
             </div>
           </SwiperSlide>
+
           <SwiperSlide className={classes.case}>
-          <div className={classes.slide}>
+            <div className={classes.slide}>
               <img className={classes.case2} src={case2} alt="" />
             </div>
           </SwiperSlide>
+
           <SwiperSlide className={classes.case}>
-          <div className={classes.slide}>
+            <div className={classes.slide}>
               <img className={classes.case3} src={case3} alt="" />
             </div>
           </SwiperSlide>
+          
           <SwiperSlide className={classes.case}>
-          <div className={classes.slide}>
+            <div className={classes.slide}>
               <img className={classes.case4} src={case4} alt="" />
             </div>
           </SwiperSlide>
         </Swiper>
       </div>
-      <Button>View Our Work</Button>
+
+      <Link to="/casestudies">
+        <Button>View Our Work</Button>
+      </Link>
     </div>
   );
 };
