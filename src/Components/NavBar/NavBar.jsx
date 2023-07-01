@@ -12,7 +12,7 @@ const NavBar = () => {
 
       <h1>JEITA LOGO</h1>
 
-      <ul>
+      <ul className={classes.list2}>
         <li>Let's Talk</li>
       </ul>
     </div>
