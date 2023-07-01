@@ -23,7 +23,7 @@
 #highlightCase .case {
   width: 99%;
   background-color: white;
-  height: 450px;
+  height: 470px;
 
   transition: border 0.2s linear;
 
@@ -33,8 +33,8 @@
 }
 
 #highlightCase .swiper:hover {
-  border: 2px solid #676A46;
-  box-shadow: 0 0 6px 4px rgb(182, 182, 182);;
+  border: 2px solid #676a46;
+  box-shadow: 0 0 6px 4px rgb(182, 182, 182);
 }
 
 #highlightCase .slide img {
