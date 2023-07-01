@@ -22,6 +22,8 @@ const HighlightCase = () => {
           img + text maybe on hover? - carousel{' '}
         </SwiperSlide>
       </Swiper>
+
+      <button>View Our Work</button>
     </div>
   );
 };

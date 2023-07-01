@@ -1,0 +1,13 @@
+#enquiry {
+  display: flex;
+  background-color: rgb(221, 221, 221);
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#enquiry .content {
+  display: flex;
+  justify-content: center;
+}
