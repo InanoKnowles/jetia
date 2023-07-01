@@ -5,7 +5,7 @@ import classes from "./TeamMembers.module.css";
 const TeamMembers = () => {
   return (
     <div id={classes.teamMembers}>
-      <h2>Meet the Team</h2>
+      <h2 className={classes.heading}>Meet the Team</h2>
       <div className={classes.teamPhotos}>
         <div className={`${classes.photo1}`}>
           <div className={`${classes.photo} ${classes.p1}`}></div>

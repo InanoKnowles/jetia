@@ -9,9 +9,9 @@ const LandingPage = () => {
   return (
     <div id={classes.landing}>
       <div className={classes.text}>
-        <p>Located in Sydney</p>
+        <p>BRISBANE • MELBOURNE • SYDNEY</p>
         <div className={classes.topLine}>
-          <p className={classes.bigText}>GROWTH</p>
+          <p className={classes.bigText}>AMBITIOUS</p>
           <p className={classes.circle}>◯</p>
           <p className={`${classes.bigText} blue`}>PASSION</p>
           <p className={classes.circle}>◯</p>
@@ -19,11 +19,11 @@ const LandingPage = () => {
           <p className={classes.circle}>◯</p>
           <p className={`${classes.bigText} armyGreen`}>EMPOWER</p>
           <p className={classes.circle}>◯</p>
-          <p className={classes.bigText}>AMBITIOUS</p>
+          <p className={classes.bigText}>GROWTH</p>
         </div>
 
         <div className={classes.bottomLine}>
-          <p className={`${classes.bigText} orange`}>UNLEASH</p>
+          <p className={`${classes.bigText} orange`}>UUNNNLEASH</p>
           <p className={classes.circle}>◯</p>
           <p className={classes.bigText}>AMBITIOUS</p> 
           <p className={classes.circle}>◯</p>

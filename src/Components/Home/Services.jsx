@@ -13,7 +13,7 @@ import hubspot from '../images/logos/hubspot.png'
 const Services = () => {
   return (
     <div id={classes.services}>
-      <h2>Our Services</h2>
+      <h2 className={classes.heading}>Our Services</h2>
       <p className={classes.summary}>
         Introduction & our value, philosophy Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -33,7 +33,7 @@ const Services = () => {
           <img className={classes.logo} src={stripe} alt="stripe" />
         </div>
         <div className={classes.block}>
-          <img className={classes.logo} src={woo} alt="woo" />
+          <img className={`${classes.woo} ${classes.logo}`} src={woo} alt="woo" />
         </div>
         <div className={classes.block}>
           <img className={classes.logo} src={wordpress} alt="wordpress" />
@@ -62,7 +62,7 @@ const Services = () => {
         <ul>
           <li>Art Direction</li>
           <li>Visual Identity</li>
-          <li className='army-green'>Brand Guidelines</li>
+          <li className='armyGreen'>Brand Guidelines</li>
         </ul>
 
         <ul>

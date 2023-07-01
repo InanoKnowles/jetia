@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   height: 150px;
-  border-top: 1px solid black ;
+  border-top: 1px solid #b8a28abb;
 }
 
 #footer .logo {
@@ -15,12 +15,19 @@
   display: flex;
 }
 
-#footer ul {
-  padding-left: 0;
+#footer .socials {
+  display: flex;
   margin-right: 20px;
 }
 
-#footer li {
-  list-style: none;
-  margin: 5px 20px
+#footer a {
+  margin: 5px 20px;
+}
+
+#footer .socials img {
+  width: 25px;
+}
+
+#footer .logo img {
+  width: 100px;
 }

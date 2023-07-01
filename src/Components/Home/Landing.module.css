@@ -1,6 +1,6 @@
 #landing {
   display: flex;
-  height: 850px;
+  height: 750px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -8,9 +8,6 @@
   overflow: hidden;
   padding: 160px 0 80px;
   align-items: center;
-
-  /* To be removed */
-  /* border: 1px solid rgb(101, 101, 191); */
 }
 
 #landing .text {
@@ -21,7 +18,7 @@
 
 #landing .topLine,
 #landing .bottomLine {
-  font-size: 3.5rem;
+  font-size: 5rem;
   overflow: hidden;
   display: flex;
   height: 86px;
@@ -36,6 +33,7 @@
   margin: 0 5px;
   color: grey;
   font-weight: 100;
+  font-size: 3rem;
 }
 
 #landing p {

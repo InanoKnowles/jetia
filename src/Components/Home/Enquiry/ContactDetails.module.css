@@ -1,6 +1,6 @@
 #contactDetails {
-  width: 300px;
-  border-left: 1px solid black;
+  width: 50%;
+  border-left: 1px solid #B8A28A;
 }
 
 #contactDetails .detail {

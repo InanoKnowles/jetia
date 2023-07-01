@@ -5,7 +5,7 @@ import Button from '../UI/Button';
 
 import classes from './NavBar.module.css';
 
-import logo from '../images/logos/jetia-logo.png';
+import jetia from '../images/logos/jetia-logo.png';
 
 const NavBar = () => {
   return (
@@ -16,7 +16,7 @@ const NavBar = () => {
       </div>
 
       <Link to="/">
-        <img className={classes.logo} src={logo} alt="jeita-logo" />
+        <img className={classes.logo} src={jetia} alt="jetia-logo" />
       </Link>
 
       <div className={classes.list2}>
