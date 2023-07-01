@@ -1,5 +1,5 @@
 #teamMembers {
-  height: 650px;
+  height: 770px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,20 +18,13 @@
 }
 
 #teamMembers .teamPhotos .photo {
-  border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(221, 221, 221);
-  border: 1px solid black;
   border-radius: 100px;
   height: 230px;
   width: 170px;
-  transition: border 0.3s linear;
-}
-
-#teamMembers .teamPhotos .photo:hover {
-  border: 3px solid pink;
 }
 
 .photo2,
@@ -41,4 +34,48 @@
 
 #teamMembers h4 {
   margin-bottom: 0;
+}
+
+.p1 {
+  background-image: url(../images/teamPhoto/ankita.jpeg);
+  background-size: cover;
+  border: 2px solid #DD6C90;
+  transition: box-shadow 0.2s linear;
+}
+
+.p1:hover {
+  box-shadow: 0 0 6px 3px rgb(182, 182, 182);
+}
+
+.p2 {
+  background-image: url(../images/teamPhoto/esther.png);
+  background-size: cover;
+  border: 2px solid #5C69B8;
+  transition: box-shadow 0.2s linear;
+}
+
+.p2:hover {
+  box-shadow: 0 0 6px 3px rgb(182, 182, 182);;
+}
+
+.p3 {
+  background-image: url(../images/teamPhoto/inano.jpeg);
+  background-size: cover;
+  border: 2px solid #676A46;
+  transition: box-shadow 0.2s linear;
+}
+
+.p3:hover {
+  box-shadow: 0 0 6px 3px rgb(182, 182, 182);;
+}
+
+.p4 {
+  background-image: url(../images/teamPhoto/tina.jpg);
+  background-size: cover;
+  border: 2px solid #F18639;
+  transition: box-shadow 0.2s linear;
+}
+
+.p4:hover {
+  box-shadow: 0 0 6px 3px rgb(182, 182, 182);;
 }
