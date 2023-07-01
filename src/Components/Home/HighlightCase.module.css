@@ -7,10 +7,13 @@
   justify-content: center;
 }
 
+#highlightCase .swiper {
+  width: 90%;
+}
+
 #highlightCase .case {
   background-color: white;
   height: 400px;
-  width: 90%;
   border-radius: 300px;
 
   display: flex;
