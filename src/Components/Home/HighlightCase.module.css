@@ -4,14 +4,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  /* To be removed */
-  border: 1px solid rgb(101, 101, 191);
 }
 
 #highlightCase .swiperDiv {
   width: 90%;
-  margin: 80px;
+  margin: 30px 80px 80px;
 }
 
 #highlightCase .swiper {
