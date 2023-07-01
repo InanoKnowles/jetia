@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-import classes from './LandingPage.module.css'
+import NavBar from '../NavBar/NavBar';
+
+import classes from './LandingPage.module.css';
 
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
-  )
-}
+    <div>
+      <NavBar />
+      LandingPage
+    </div>
+  );
+};
 
-export default LandingPage
+export default LandingPage;

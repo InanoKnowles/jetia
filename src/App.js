@@ -10,6 +10,7 @@ import './App.css';
 function App() {
   return (
     <div>
+      
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
         <Route path="/aboutus" element={<AboutUs />}></Route>
