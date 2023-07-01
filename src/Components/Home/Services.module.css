@@ -4,10 +4,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: white; */
+}
 
-  /* To be removed */
-  border: 1px solid rgb(101, 101, 191);
+#services .heading {
+  margin-bottom: 40px;
 }
 
 #services .summary {
@@ -20,7 +20,7 @@
 .list {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 #services .block {
@@ -35,11 +35,12 @@
   display: flex;
   align-items: center;
   width: 100%;
+  margin: 0 auto;
 }
 
 #services .list {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   text-align: left;
 }
 
@@ -50,4 +51,8 @@
 #services li {
   list-style: none;
   font-weight: 500;
+}
+
+#services .woo {
+  width: 120px;
 }

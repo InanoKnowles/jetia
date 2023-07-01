@@ -2,20 +2,27 @@
   margin-right: 60px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
 }
 
 #enquiryForm label {
   display: block;
   font-size: 0.7rem;
   margin: 7px 0;
+  font-weight: 600;
 }
 
-#enquiryForm input, #enquiryForm textarea {
+#enquiryForm input,
+#enquiryForm textarea {
   width: 100%;
   border-radius: 15px;
   padding: 5px 8px;
   border: 2px solid black;
+}
+#enquiryForm input:focus,
+#enquiryForm textarea:focus {
+  outline: none !important;
+  border: 2px solid #f18639;
 }
 
 #enquiryForm textarea {
@@ -34,4 +41,8 @@
 
 #enquiryForm button {
   align-self: flex-end;
+}
+
+.inlineInputs div {
+  width: 100%;
 }
