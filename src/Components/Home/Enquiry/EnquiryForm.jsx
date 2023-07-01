@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './EnquiryForm.module.css'
+import classes from './EnquiryForm.module.css';
 
 const EnquiryForm = () => {
   return (
@@ -33,8 +33,8 @@ const EnquiryForm = () => {
           <textarea type="text" />
         </div>
 
-      </form>
         <button>Send</button>
+      </form>
     </div>
   );
 };
