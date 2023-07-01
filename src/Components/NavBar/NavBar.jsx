@@ -5,7 +5,7 @@ import Button from '../UI/Button';
 
 import classes from './NavBar.module.css';
 
-import logo from '../images/jetia-logo.png';
+import logo from '../images/logos/jetia-logo.png';
 
 const NavBar = () => {
   return (

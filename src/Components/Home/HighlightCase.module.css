@@ -1,5 +1,5 @@
 #highlightCase {
-  height: 650px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,21 +11,19 @@
 
 #highlightCase .swiperDiv {
   width: 90%;
+  margin: 80px;
 }
 
 #highlightCase .swiper {
-  /* width: 100%; */
+  border: 2px solid white;
   border-radius: 220px;
-  /* margin: 5px; */
+  transition: border 0.05s linear, box-shadow 0.05s linear;
 }
 
 #highlightCase .case {
-  border: 1px solid white;
   width: 99%;
   background-color: white;
-  height: 450px;
-  border-radius: 220px;
-  /* margin: 5px; */
+  height: 470px;
 
   transition: border 0.2s linear;
 
@@ -34,6 +32,27 @@
   justify-content: center;
 }
 
-#highlightCase .case:hover {
-  border: 3px solid pink;
+#highlightCase .swiper:hover {
+  border: 2px solid #676a46;
+  box-shadow: 0 0 6px 4px rgb(182, 182, 182);
+}
+
+#highlightCase .slide img {
+  width: 100%;
+}
+
+#highlightCase .slide .case1 {
+  border-radius: 230px;
+}
+
+#highlightCase .slide .case2 {
+  border-radius: 400px;
+}
+
+#highlightCase .slide .case3 {
+  border-radius: 500px;
+}
+
+#highlightCase .slide .case4 {
+  border-radius: 400px;
 }

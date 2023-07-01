@@ -1,0 +1,103 @@
+.heading {
+  margin: 10px 0 170px 50px;
+  padding: 5px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4.5rem; 
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.swiper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 450px;
+  border-radius: 250px;
+  transition: border 0.2s linear, box-shadow 0.3s linear;
+}
+
+.carouselCaseStudies  {
+  padding-top: 200px;
+  /* margin-top: 60px; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselCaseStudies .swiper:hover {
+  border: 5px solid #5C69B8;
+  box-shadow: 0 0 5px 3px lightgray;
+}
+
+.carouselCaseStudies .swiper {
+  max-width: 900px;
+  min-width: 200px;
+  align-items: center;
+  border: 5px solid #FFFFFA;
+}
+
+.list {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 900px;
+  padding: 20px;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 180px;
+}
+
+.circle {
+  font-size: 4rem;
+  display: inline;
+  margin-left: 15px;
+}
+
+.case1 {
+  background-image: url(../images/caseStudies/case1.png);
+  background-size: contain;
+  width: 1010px;
+  height: 450px;
+}
+
+.case2 {
+  background-image: url(../images/caseStudies/case2.png);
+  background-size: contain;
+  width: 1010px;
+  height: 450px;
+}
+
+.case3 {
+  background-image: url(../images/caseStudies/case3.png);
+  background-size: contain;
+  width: 1010px;
+  height: 450px;
+}
+
+.case4 {
+  background-image: url(../images/caseStudies/case4.png);
+  background-size: contain;
+  width: 1010px;
+  height: 450px;
+}
+
+.case5 {
+  background-image: url(../images/caseStudies/case5.png);
+  background-size: contain;
+  width: 1010px;
+  height: 450px;
+}
+
+.case6 {
+  background-image: url(../images/caseStudies/case6.png);
+  background-size: contain;
+  width: 1010px;
+  height: 450px;
+}

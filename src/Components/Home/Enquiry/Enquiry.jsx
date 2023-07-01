@@ -10,7 +10,7 @@ const Enquiry = () => {
     <div id='letschat'>
       <div id={classes.enquiry}>
         <h3>Curious how we can help?</h3>
-        <h2>Let's Chat</h2>
+        <h2 className={classes.letsChat}>Let's Chat</h2>
 
         <div className={classes.content}>
           <EnquiryForm />

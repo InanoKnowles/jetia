@@ -2,6 +2,14 @@ import React from 'react';
 
 import classes from './Services.module.css';
 
+import webflow from '../images/logos/webflow.png';
+import splunk from '../images/logos/splunk.png';
+import stripe from '../images/logos/stripe.png';
+import woo from '../images/logos/woo.png';
+import wordpress from '../images/logos/wordpress.png';
+import braze from '../images/logos/braze.png';
+import hubspot from '../images/logos/hubspot.png'
+
 const Services = () => {
   return (
     <div id={classes.services}>
@@ -11,49 +19,62 @@ const Services = () => {
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
         et dolore magna aliqua. Ut enim ad minim veniam, Introduction & our
         value, philosophIntroduction & our value, philosophy Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        ut labore et dolore magna aliqua. Ut enim ad s minim veniam,
-        Introduction & our value, philosoph
+        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
       </p>
 
-      <div className={classes.blocks}>
-        <div className={classes.block}></div>
-        <div className={classes.block}></div>
-        <div className={classes.block}></div>
-        <div className={classes.block}></div>
-        <div className={classes.block}></div>
-  
+      <div className={classes.logos}>
+        <div className={classes.block}>
+          <img className={classes.logo} src={webflow} alt="webflow" />
+        </div>
+        <div className={classes.block}>
+          <img className={classes.logo} src={splunk} alt="splunk" />
+        </div>
+        <div className={classes.block}>
+          <img className={classes.logo} src={stripe} alt="stripe" />
+        </div>
+        <div className={classes.block}>
+          <img className={classes.logo} src={woo} alt="woo" />
+        </div>
+        <div className={classes.block}>
+          <img className={classes.logo} src={wordpress} alt="wordpress" />
+        </div>
+        <div className={classes.block}>
+          <img className={classes.logo} src={hubspot} alt="hubspot" />
+        </div>
+        <div className={classes.block}>
+          <img className={classes.logo} src={braze} alt="braze" />
+        </div>
       </div>
 
       <div className={classes.list}>
         <ul>
-          <li>Product Design</li>
-          <li>Product Design</li>
-          <li>Product Design</li>
+          <li>Market Research</li>
+          <li>Data Analysis</li>
+          <li className='orange'>Branding Strategy</li>
         </ul>
 
         <ul>
+          <li className='blue'>Digital Creative</li>
           <li>Product Design</li>
-          <li>Product Design</li>
-          <li>Product Design</li>
+          <li>Service Design</li>
         </ul>
 
         <ul>
-          <li>Product Design</li>
-          <li>Product Design</li>
-          <li>Product Design</li>
+          <li>Art Direction</li>
+          <li>Visual Identity</li>
+          <li className='army-green'>Brand Guidelines</li>
         </ul>
 
         <ul>
-          <li>Product Design</li>
-          <li>Product Design</li>
-          <li>Product Design</li>
+          <li>Web Accessibility</li>
+          <li className='pink'>Interface Design</li>
+          <li>User Research</li>
         </ul>
 
         <ul>
-          <li>Product Design</li>
-          <li>Product Design</li>
-          <li>Product Design</li>
+          <li className='taupe'>Mobile Design</li>
+          <li>Content Production</li>
+          <li>Copywriting</li>
         </ul>
       </div>
     </div>
