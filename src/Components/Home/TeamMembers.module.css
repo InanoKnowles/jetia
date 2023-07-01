@@ -15,6 +15,7 @@
 }
 
 #teamMembers .teamPhotos .photo {
+  border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,6 +24,11 @@
   border-radius: 100px;
   height: 230px;
   width: 170px;
+  transition: border 0.3s linear;
+}
+
+#teamMembers .teamPhotos .photo:hover {
+  border: 3px solid pink;
 }
 
 .photo2,
