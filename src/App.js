@@ -7,8 +7,6 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import CaseStudies from './Components/CaseStudies/CaseStudies';
 import Footer from './Components/Footer/Footer';
 
-import './App.css';
-
 function App() {
   return (
     <div>
