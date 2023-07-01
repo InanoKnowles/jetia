@@ -8,9 +8,9 @@ const TeamMember = () => {
 					<div className={`${classes.photo1}`}></div>
 					<div className="orange">
 						<p>
-							<span className={classes.memberName}>Esher</span>
+							<span className={classes.memberName}>TINA</span>
 							<br></br>
-							<span id={classes.consultancyName}>Digital Consultancy</span>
+							<span id={classes.consultancyName}>Software Developer</span>
 						</p>
 					</div>
 				</div>
@@ -26,13 +26,13 @@ const TeamMember = () => {
 					<div className={`${classes.photo2}`}></div>
 					<div className="pink">
 						<p>
-							<span className={classes.memberName}>Inano Knowles</span>
+							<span className={classes.memberName}>ESTHER</span>
 							<br></br>
-							<span id={classes.consultancyName}>Digital Consultancy</span>
+							<span id={classes.consultancyName}>UX Designer</span>
 						</p>
 					</div>
 				</div>
-				<div className={`${classes.memberDesc}`}>
+				<div className={classes.memberDescEven}>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -44,13 +44,13 @@ const TeamMember = () => {
 					<div className={`${classes.photo3}`}></div>
 					<div className="armyGreen">
 						<p>
-							<span className={classes.memberName}>Inano Knowles</span>
+							<span className={classes.memberName}>INANO KNOWLES</span>
 							<br></br>
 							<span id={classes.consultancyName}>Digital Consultancy</span>
 						</p>
 					</div>
 				</div>
-				<div className={`${classes.memberDesc}`}>
+				<div className={classes.memberDescodd}>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -62,13 +62,13 @@ const TeamMember = () => {
 					<div className={`${classes.photo4}`}></div>
 					<div className="taupe">
 						<p>
-							<span className={classes.memberName}>Inano Knowles</span>
+							<span className={classes.memberName}>ANKITA</span>
 							<br></br>
-							<span id={classes.consultancyName}>Digital Consultancy</span>
+							<span id={classes.consultancyName}>Project Manager</span>
 						</p>
 					</div>
 				</div>
-				<div className={`${classes.memberDesc}`}>
+				<div className={classes.memberDescEven}>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
