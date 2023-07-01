@@ -4,18 +4,25 @@
   align-items: center;
   position: fixed;
   background-color: white;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(228, 228, 228);
   width: 100%;
   z-index: 10;
 }
 
-#navbar ul {
-  list-style: none;
-  padding-left: 0;
+#navbar .logo {
+  width: 80px;
+  margin: 20px 0;
 }
 
-#navbar li {
-  padding: 10px 30px
+
+#navbar a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
 }
 
 #navbar .list1 {
@@ -23,9 +30,12 @@
   width: 300px;
 }
 
+#navbar .list1 a {
+  margin: 0 10px
+}
+
 #navbar .list2 {
   display: flex;
   width: 300px;
   justify-content: flex-end;
 }
-

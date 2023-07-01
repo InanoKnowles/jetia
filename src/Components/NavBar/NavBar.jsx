@@ -1,20 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import Button from '../UI/Button';
 
 import classes from './NavBar.module.css';
+
+import logo from '../images/jetia-logo.png';
 
 const NavBar = () => {
   return (
     <div id={classes.navbar}>
-      <ul className={classes.list1}>
-        <li>About Us</li>
-        <li>Work</li>
-      </ul>
+      <div className={classes.list1}>
+        <Link to="/aboutus">About Us</Link>
+        <Link to="/casestudies">Work</Link>
+      </div>
 
-      <h1>JEITA LOGO</h1>
+      <Link to="/">
+        <img className={classes.logo} src={logo} alt="jeita-logo" />
+      </Link>
 
-      <ul className={classes.list2}>
-        <li>Let's Talk</li>
-      </ul>
+      <div className={classes.list2}>
+        <HashLink smooth to="/#letschat">
+          <Button> Let's Talk</Button>
+        </HashLink>
+      </div>
     </div>
   );
 };

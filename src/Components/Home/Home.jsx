@@ -6,11 +6,11 @@ import HighlightCase from './HighlightCase'
 import TeamMembers from './TeamMembers'
 import Enquiry from './Enquiry/Enquiry'
 
-// import classes from './Home.module.css'
+import classes from './Home.module.css'
 
 const HomePage = () => {
   return (
-    <div>
+    <div id={classes.home}>
       <LandingPage />
       <Services />
       <HighlightCase />
