@@ -1,0 +1,34 @@
+#landing {
+  display: flex;
+  background-color: rgb(221, 221, 221);
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+#landing .text {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topLine,
+.bottomLine {
+  font-size: 3.5rem;
+  overflow: hidden;
+  display: flex;
+  height: 86px;
+}
+
+#landing p {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#landing .summary {
+  width: 55%;
+}
