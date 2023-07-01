@@ -1,0 +1,39 @@
+#highlightCase {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* To be removed */
+  border: 1px solid rgb(101, 101, 191);
+}
+
+#highlightCase .swiperDiv {
+  width: 90%;
+}
+
+#highlightCase .swiper {
+  /* width: 100%; */
+  border-radius: 220px;
+  /* margin: 5px; */
+}
+
+#highlightCase .case {
+  border: 1px solid white;
+  width: 99%;
+  background-color: white;
+  height: 450px;
+  border-radius: 220px;
+  /* margin: 5px; */
+
+  transition: border 0.2s linear;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#highlightCase .case:hover {
+  border: 3px solid pink;
+}

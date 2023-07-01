@@ -1,0 +1,12 @@
+#contactDetails {
+  width: 300px;
+  border-left: 1px solid black;
+}
+
+#contactDetails .detail {
+  margin: 30px 0 50px 60px;
+}
+
+#contactDetails h4 {
+  font-size: 0.7rem;
+}
