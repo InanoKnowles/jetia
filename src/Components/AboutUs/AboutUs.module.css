@@ -5,17 +5,22 @@
 }
 #supportText {
 	font-family: "Cormorant Garamond", serif;
+	font-weight: bolder;
 }
 #heading {
 	font-family: "Cormorant Garamond", serif;
 	font-weight: 600;
 	font-size: 60px;
 }
-#empowerSection {
-}
 
 h2 .circle {
 	margin: 0 0px;
 	color: grey;
 	font-weight: 100;
+}
+
+#whoWeAre {
+	font-family: "Cormorant Garamond", serif;
+	font-weight: 200;
+	font-size: 45px;
 }

@@ -9,7 +9,8 @@ const AboutUs = () => {
 			<section id={classes.whoweare}>
 				<div id={classes.empowerSection}>
 					<h2 id={classes.heading}>
-						We empower female entrepreneurs to thrive in the digital world<span className={classes.circle}>◯</span>
+						We empower female entrepreneurs to thrive in the digital world
+						<span className={classes.circle}>◯</span>
 					</h2>
 				</div>
 
@@ -21,20 +22,16 @@ const AboutUs = () => {
 					their passions and aspirations.
 				</p>
 			</section>
-			<section className={classes.aboutus}>
+			<p id={classes.whoWeAre}>
 				We are an international team of passionate designers, developers, brand
 				strategists & data analysts.
-			</section>
-			<div>Intro</div>
-			<h1 id={classes.passtionatestmt}>
-				We are an international team of passionate designers, developers, brand
-				strategists & data analysts.
-			</h1>
+			</p>
 
-			<div id={classes.supportText}>
+			<h3 id={classes.supportText}>
 				Wheather You're starting out or looking to Expand Presence.We are here
 				to provideyou with the tools,strategies,and support you need.
-			</div>
+				<span className={classes.circle}>◯</span>
+			</h3>
 			<OurServices></OurServices>
 		</div>
 	);
