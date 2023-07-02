@@ -17,22 +17,24 @@ const CaseStudies = () => {
           <div className={classes.case1}></div>
         </a>
       </Swiper>
-      <div className={classes.list}>
+      <div className={classes.details}>
         <h2>PROJECT NAME</h2>
-        <div>
-          <p>keywords</p>
-        </div>
+        <div className={classes.list}>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
+          <div>
+            <p>keywords</p>
+          </div>
         </div>
       </div>
       {/* END OF WHOLE SEGMENT 1*/}
@@ -43,22 +45,24 @@ const CaseStudies = () => {
           <div className={classes.case2}></div>
         </a>
       </Swiper>
-      <div className={classes.list}>
+      <div className={classes.details}>
         <h2>PROJECT NAME</h2>
-        <div>
-          <p>keywords</p>
-        </div>
+        <div className={classes.list}>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
+          <div>
+            <p>keywords</p>
+          </div>
         </div>
       </div>
       {/* END OF WHOLE SEGMENT 2*/}
@@ -69,22 +73,24 @@ const CaseStudies = () => {
           <div className={classes.case3}></div>
         </a>
       </Swiper>
-      <div className={classes.list}>
+      <div className={classes.details}>
         <h2>PROJECT NAME</h2>
-        <div>
-          <p>keywords</p>
-        </div>
+        <div className={classes.list}>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
+          <div>
+            <p>keywords</p>
+          </div>
         </div>
       </div>
       {/* END OF WHOLE SEGMENT 3*/}
@@ -95,22 +101,24 @@ const CaseStudies = () => {
           <div className={classes.case4}></div>
         </a>
       </Swiper>
-      <div className={classes.list}>
+      <div className={classes.details}>
         <h2>PROJECT NAME</h2>
-        <div>
-          <p>keywords</p>
-        </div>
+        <div className={classes.list}>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
+          <div>
+            <p>keywords</p>
+          </div>
         </div>
       </div>
       {/* END OF WHOLE SEGMENT 4*/}
@@ -121,22 +129,24 @@ const CaseStudies = () => {
           <div className={classes.case5}></div>
         </a>
       </Swiper>
-      <div className={classes.list}>
+      <div className={classes.details}>
         <h2>PROJECT NAME</h2>
-        <div>
-          <p>keywords</p>
-        </div>
+        <div className={classes.list}>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
+          <div>
+            <p>keywords</p>
+          </div>
         </div>
       </div>
       {/* END OF WHOLE SEGMENT 5*/}
@@ -147,22 +157,24 @@ const CaseStudies = () => {
           <div className={classes.case6}></div>
         </a>
       </Swiper>
-      <div className={classes.list}>
+      <div className={classes.details}>
         <h2>PROJECT NAME</h2>
-        <div>
-          <p>keywords</p>
-        </div>
+        <div className={classes.list}>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
-        </div>
+          <div>
+            <p>keywords</p>
+          </div>
 
-        <div>
-          <p>keywords</p>
+          <div>
+            <p>keywords</p>
+          </div>
         </div>
       </div>
       {/* END OF WHOLE SEGMENT 56*/}
