@@ -8,7 +8,7 @@ import MediaQuery from 'react-responsive';
 import classes from './HighlightCase.module.css';
 
 import case1 from '../images/caseStudies/case1.png';
-import case2 from '../images/caseStudies/case2.png';
+import case2 from '../images/caseStudies/case8.png';
 import case3 from '../images/caseStudies/case6.png';
 import case4 from '../images/caseStudies/case4.png';
 

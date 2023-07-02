@@ -51,26 +51,50 @@ const NavBar = () => {
                 </span>
               </div>
 
-              <img className={classes.logo} src={jetia} alt="jetia" />
+              <Link to="/">
+                <img className={classes.logo} src={jetia} alt="jetia" />
+              </Link>
 
               <div className={classes.block}></div>
             </div>
             <div className={classes.mobileNavItems}>
               <ul>
                 <li>
-                  <Link onClick={deactivateMenuHandler} to="/" className={classes.listText}>
+                  <Link
+                    onClick={deactivateMenuHandler}
+                    to="/"
+                    className={classes.listText}
+                  >
                     HOME
                   </Link>
                 </li>
                 <li>
-                  <Link onClick={deactivateMenuHandler} to="/aboutus" className={classes.listText}>
+                  <Link
+                    onClick={deactivateMenuHandler}
+                    to="/aboutus"
+                    className={classes.listText}
+                  >
                     ABOUT US
                   </Link>
                 </li>
                 <li>
-                  <Link onClick={deactivateMenuHandler} to="/casestudies" className={classes.listText}>
+                  <Link
+                    onClick={deactivateMenuHandler}
+                    to="/casestudies"
+                    className={classes.listText}
+                  >
                     WORK
                   </Link>
+                </li>
+
+                <li>
+                  <HashLink
+                    onClick={deactivateMenuHandler}
+                    smooth
+                    to="/#letschat"
+                  >
+                    LET'S TALK
+                  </HashLink>
                 </li>
               </ul>
 
@@ -91,7 +115,9 @@ const NavBar = () => {
               </span>
             </p>
 
-            <img className={classes.logo} src={jetia} alt="jetia" />
+            <Link to="/">
+              <img className={classes.logo} src={jetia} alt="jetia" />
+            </Link>
 
             <div className={classes.block}></div>
           </div>

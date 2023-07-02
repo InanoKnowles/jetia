@@ -13,7 +13,7 @@ const Footer = () => {
     <div id={classes.footer}>
       <div className={classes.logo}>
         <img src={jetia} alt="jetia" />
-        <p>Copyright 2023 C</p>
+        <p>Copyright 2023 ©</p>
       </div>
 
       <div className={classes.socials}>
