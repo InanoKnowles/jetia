@@ -35,7 +35,7 @@ const HighlightCase = () => {
               <img className={classes.case3} src={case3} alt="" />
             </div>
           </SwiperSlide>
-          
+
           <SwiperSlide className={classes.case}>
             <div className={classes.slide}>
               <img className={classes.case4} src={case4} alt="" />

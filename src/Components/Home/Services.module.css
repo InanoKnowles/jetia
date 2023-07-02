@@ -57,3 +57,29 @@
 #services .woo {
   width: 120px;
 }
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #services {
+    height: 800px;
+  }
+
+  #services .summary {
+    width: 75%;
+  }
+
+  #services .woo {
+    width: 100%;
+  }
+
+  #services .logos {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  #services .list {
+    font-size: 1rem;
+  }
+}
