@@ -1,9 +1,10 @@
 #teamMembers {
-  height: 830px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 
 #teamMembers .heading {
@@ -34,7 +35,13 @@
 }
 
 #teamMembers h4 {
+  font-size: 1.5rem;
+  font-family: 'Cormorant Garamond', serif; 
   margin-bottom: 0;
+}
+
+#teamMembers p {
+  margin-top: 0;
 }
 
 .p1 {
@@ -79,6 +86,11 @@
 
 .p4:hover {
   box-shadow: 0 0 6px 3px rgb(182, 182, 182);
+}
+
+#teamMembers .swipeText {
+  color: #B8A28A;
+  margin-top: 50px;
 }
 
 /***************************************************/
