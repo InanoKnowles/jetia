@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  padding: 0 186px;
 }
 
 #teamMembers .heading {
@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  width: 90%;
+  width: 100%;
   height: 550px;
 }
 
@@ -25,8 +25,8 @@
   justify-content: center;
   background-color: rgb(221, 221, 221);
   border-radius: 150px;
-  height: 330px;
-  width: 240px;
+  height: 290px;
+  width: 200px;
 }
 
 .photo2,
@@ -52,7 +52,7 @@
 }
 
 .p1:hover {
-  box-shadow: 0 0 6px 3px rgb(182, 182, 182);
+  box-shadow: 0 0 6px 3px #dd6c9079;
 }
 
 .p2 {
@@ -63,7 +63,7 @@
 }
 
 .p2:hover {
-  box-shadow: 0 0 6px 3px rgb(182, 182, 182);
+  box-shadow: 0 0 6px 3px #5c68b879;
 }
 
 .p3 {
@@ -74,7 +74,7 @@
 }
 
 .p3:hover {
-  box-shadow: 0 0 6px 3px rgb(182, 182, 182);
+  box-shadow: 0 0 6px 3px #676a4681;
 }
 
 .p4 {
@@ -85,7 +85,7 @@
 }
 
 .p4:hover {
-  box-shadow: 0 0 6px 3px rgb(182, 182, 182);
+  box-shadow: 0 0 6px 3px #f186397b;
 }
 
 #teamMembers .swipeText {
@@ -99,6 +99,7 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   #teamMembers {
     height: 700px;
+    padding: 0 20px;
   }
 
   #teamMembers .swiper {

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import MediaQuery from 'react-responsive';
 import classes from './Services.module.css';
 
 import webflow from '../images/logos/webflow.png';
@@ -8,7 +8,7 @@ import stripe from '../images/logos/stripe.png';
 import woo from '../images/logos/woo.png';
 import wordpress from '../images/logos/wordpress.png';
 import braze from '../images/logos/braze.png';
-import hubspot from '../images/logos/hubspot.png'
+import hubspot from '../images/logos/hubspot.png';
 
 const Services = () => {
   return (
@@ -33,7 +33,11 @@ const Services = () => {
           <img className={classes.logo} src={stripe} alt="stripe" />
         </div>
         <div className={classes.block}>
-          <img className={`${classes.woo} ${classes.logo}`} src={woo} alt="woo" />
+          <img
+            className={`${classes.woo} ${classes.logo}`}
+            src={woo}
+            alt="woo"
+          />
         </div>
         <div className={classes.block}>
           <img className={classes.logo} src={wordpress} alt="wordpress" />
@@ -47,35 +51,58 @@ const Services = () => {
       </div>
 
       <div className={classes.list}>
-        <ul>
-          <li>Market Research</li>
-          <li>Data Analysis</li>
-          <li className='orange'>Branding Strategy</li>
-        </ul>
+        <MediaQuery minWidth={601} maxWidth={1440}>
+          <ul>
+            <li>Market Research</li>
+            <li className="orange">Data Analysis</li>
+            <li >Branding Strategy</li>
+          </ul>
 
-        <ul>
-          <li className='blue'>Digital Creative</li>
-          <li>Product Design</li>
-          <li>Service Design</li>
-        </ul>
+          <ul>
+            <li className="blue">Digital Creative</li>
+            <li>Product Design</li>
+            <li>Service Design</li>
+          </ul>
 
-        <ul>
-          <li>Art Direction</li>
-          <li>Visual Identity</li>
-          <li className='armyGreen'>Brand Guidelines</li>
-        </ul>
+          <ul>
+            <li>Art Direction</li>
+            <li>Visual Identity</li>
+            <li className="armyGreen">Brand Guidelines</li>
+          </ul>
 
-        <ul>
-          <li>Web Accessibility</li>
-          <li className='pink'>Interface Design</li>
-          <li>User Research</li>
-        </ul>
+          <ul>
+            <li>Web Accessibility</li>
+            <li className="pink">Interface Design</li>
+            <li>User Research</li>
+          </ul>
 
-        <ul>
-          <li className='taupe'>Mobile Design</li>
-          <li>Content Production</li>
-          <li>Copywriting</li>
-        </ul>
+          <ul>
+            <li className="taupe">Mobile Design</li>
+            <li>Content Production</li>
+            <li>Copywriting</li>
+          </ul>
+        </MediaQuery>
+        <MediaQuery minWidth={320} maxWidth={600}>
+          <ul>
+            <li>Market Research</li>
+            <li className="orange">Data Analysis</li>
+            <li>Branding Strategy</li>
+            <li>Digital Creative</li>
+            <li>Product Design</li>
+            <li  className="blue">Art Direction</li>
+            <li>Visual Identity</li>
+          </ul>
+
+          <ul>
+            <li className="armyGreen">Brand Guidelines</li>
+            <li>Web Accessibility</li>
+            <li className="pink">Interface Design</li>
+            <li>User Research</li>
+            <li>Mobile Design</li>
+            <li className="taupe">Content Production</li>
+            <li>Copywriting</li>
+          </ul>
+        </MediaQuery>
       </div>
     </div>
   );

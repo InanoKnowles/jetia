@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 186px;
 }
 
 #services .heading {
@@ -11,7 +12,7 @@
 }
 
 #services .summary {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   line-height: 30px;
 }
@@ -35,13 +36,13 @@
 #services .logo {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
 }
 
 #services .list {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: left;
 }
 
@@ -55,7 +56,7 @@
 }
 
 #services .woo {
-  width: 120px;
+  width: 100px;
 }
 
 /***************************************************/
@@ -64,6 +65,7 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   #services {
     height: 750px;
+    padding: 0 20px;
   }
 
   #services .summary {
@@ -81,5 +83,32 @@
 
   #services .list {
     font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  #services .list li {
+    margin: 8px 0;
+  }
+}
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #services {
+    height: 950px;
+    padding: 0 20px;
+  }
+
+  #services .logos {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  #services .list {
+    margin-top: 20px;
+  }
+  
+  #services .list li {
+    margin: 8px 0;
   }
 }

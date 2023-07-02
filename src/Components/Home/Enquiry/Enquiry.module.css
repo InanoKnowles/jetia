@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   margin: 30px auto 50px;
+  padding: 0 186px;
 }
 
 #enquiry h2, #enquiry h3 {
@@ -25,7 +26,7 @@
 #enquiry .content {
   display: flex;
   justify-content: center;
-  width: 75%;
+  width: 100%;
 }
 
 /***************************************************/
@@ -35,6 +36,7 @@
   #enquiry  {
     height: 650px;
     margin-bottom: 80px;
+    padding: 0 30px;
   }
 }
 

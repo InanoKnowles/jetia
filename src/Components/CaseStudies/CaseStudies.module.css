@@ -30,15 +30,14 @@
 
 
 #caseStudies .swiper:hover {
-  border: 5px solid #5C69B8;
-  box-shadow: 0 0 5px 3px lightgray;
+  border: 3px solid #5C69B8;
+  box-shadow: 0 0 5px 3px #5c68b87a;
 }
 
 #caseStudies .swiper {
-  max-width: 900px;
   min-width: 200px;
   align-items: center;
-  border: 5px solid #FFFFFA;
+  border: 2px solid #1B1728;
 }
 
 .list {
