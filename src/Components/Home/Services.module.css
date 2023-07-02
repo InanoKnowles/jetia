@@ -94,8 +94,8 @@
 /* Mobile */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   #services {
-    height: 950px;
-    padding: 0 20px;
+    height: 1150px;
+    padding: 0 10px;
   }
 
   #services .logos {

@@ -124,4 +124,32 @@
 
 /* Mobile */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+  #teamMembers {
+    height: 800px;
+    padding: 0 10px;
+  }
+
+  #teamMembers .swiper {
+    width: 100%;
+  }
+
+  #teamMembers .teamMember1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #teamMembers .p1,
+  #teamMembers .p2,
+  #teamMembers .p3,
+  #teamMembers .p4 {
+    border-radius: 200px;
+    height: 300px;
+    width: 50%;
+  }
+
+  #teamMembers .swipeText {
+    color: #B8A28A;
+    margin-top: 20px;
+  }
 }
