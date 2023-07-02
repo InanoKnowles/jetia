@@ -15,11 +15,8 @@ const Services = () => {
     <div id={classes.services}>
       <h2 className={classes.heading}>Our Services</h2>
       <p className={classes.summary}>
-        Introduction & our value, philosophy Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-        et dolore magna aliqua. Ut enim ad minim veniam, Introduction & our
-        value, philosophIntroduction & our value, philosophy Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+      We empower female entrepreneurs to thrive in the digital world and build successful businesses that leave a lasting impact. 
+We specialise in the digital design and creative approach to helping women transform their ideas into thriving online ventures.
       </p>
 
       <div className={classes.logos}>

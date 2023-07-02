@@ -20,7 +20,7 @@ const TeamMembers = () => {
           <div className={`${classes.photo2}`}>
             <div className={`${classes.photo} ${classes.p2}`}></div>
             <h4>ESTHER</h4>
-            <p>UX Designer</p>
+            <p>UX/UI Designer</p>
           </div>
 
           <div className={`${classes.photo3}`}>
@@ -51,7 +51,7 @@ const TeamMembers = () => {
             <div className={`${classes.teamMember1}`}>
               <div className={`${classes.photo} ${classes.p2}`}></div>
               <h4 className="blue">ESTHER</h4>
-              <p className="blue">UX Designer</p>
+              <p className="blue">UX/UI Designer</p>
             </div>
           </SwiperSlide>
 
@@ -67,7 +67,7 @@ const TeamMembers = () => {
             <div className={`${classes.teamMember1}`}>
               <div className={`${classes.photo} ${classes.p4} orange`}></div>
               <h4 className="orange">TINA</h4>
-              <p className="orange">Software Developer</p>
+              <p className="orange">Full Stack Software Engineer</p>
             </div>
           </SwiperSlide>
         </Swiper>

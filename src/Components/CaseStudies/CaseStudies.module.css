@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
+  /* width: 100%; */
   height: 450px;
   border-radius: 250px;
   transition: border 0.2s linear, box-shadow 0.3s linear;
@@ -44,7 +44,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 900px;
+  width: 1000px;
   padding: 20px;
   flex-wrap: nowrap;
   align-content: center;
@@ -66,42 +66,56 @@
 
 .case1 {
   background-image: url(../images/caseStudies/case1.png);
-  background-size: contain;
+  background-size: cover;
   width: 1010px;
   height: 450px;
 }
 
 .case2 {
   background-image: url(../images/caseStudies/case2.png);
-  background-size: contain;
+  background-size: cover;
   width: 1010px;
   height: 450px;
 }
 
 .case3 {
   background-image: url(../images/caseStudies/case3.png);
-  background-size: contain;
+  background-size: cover;
   width: 1010px;
   height: 450px;
 }
 
 .case4 {
   background-image: url(../images/caseStudies/case4.png);
-  background-size: contain;
+  background-size: cover;
   width: 1010px;
   height: 450px;
 }
 
 .case5 {
   background-image: url(../images/caseStudies/case5.png);
-  background-size: contain;
+  background-size: cover;
   width: 1010px;
   height: 450px;
 }
 
 .case6 {
   background-image: url(../images/caseStudies/case6.png);
-  background-size: contain;
+  background-size: cover;
+  width: 1010px;
+  height: 450px;
+}
+
+.case7 {
+  background-image: url(../images/caseStudies/case7.png);
+  background-size: cover;
+  width: 1010px;
+  height: 450px;
+}
+
+.case8 {
+  background-image: url(../images/caseStudies/case8.png);
+  background-size: cover;
   width: 1010px;
   height: 450px;
 }
