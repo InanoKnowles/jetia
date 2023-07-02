@@ -82,4 +82,27 @@
 
 /* Mobile */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+  #highlightCase {
+    height: 500px;
+    padding: 0 10px;
+  }
+
+  #highlightCase .swiperDiv {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+
+  #highlightCase .case {
+    height: 220px;
+  }
+
+  #highlightCase .slide img {
+    width: 110%;
+  }
+
+  #highlightCase .swipeText {
+    margin: 50px auto;
+    text-align: center;
+    color: #b8a28a;
+  }
 }
