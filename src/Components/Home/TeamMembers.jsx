@@ -37,7 +37,7 @@ const TeamMembers = () => {
         </div>
       </MediaQuery>
 
-      <MediaQuery minWidth={481} maxWidth={768}>
+      <MediaQuery minWidth={320} maxWidth={768}>
         <Swiper className={`mySwiper ${classes.swiper}`} spaceBetween={20}>
           <SwiperSlide>
             <div className={`${classes.teamMember1}`}>

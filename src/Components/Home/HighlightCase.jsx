@@ -44,7 +44,7 @@ const HighlightCase = () => {
           </SwiperSlide>
         </Swiper>
 
-        <MediaQuery minWidth={481} maxWidth={768}>
+        <MediaQuery minWidth={320} maxWidth={768}>
           <p className={classes.swipeText}>← Swipe to see →</p>
         </MediaQuery>
       </div>
