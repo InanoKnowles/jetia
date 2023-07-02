@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Button from '../UI/Button';
 import { Link } from 'react-router-dom';
+import MediaQuery from 'react-responsive';
 
 import classes from './HighlightCase.module.css';
 
@@ -35,13 +36,17 @@ const HighlightCase = () => {
               <img className={classes.case3} src={case3} alt="" />
             </div>
           </SwiperSlide>
-          
+
           <SwiperSlide className={classes.case}>
             <div className={classes.slide}>
               <img className={classes.case4} src={case4} alt="" />
             </div>
           </SwiperSlide>
         </Swiper>
+
+        <MediaQuery minWidth={481} maxWidth={768}>
+          <p className={classes.swipeText}>← Swipe to see →</p>
+        </MediaQuery>
       </div>
 
       <Link to="/casestudies">

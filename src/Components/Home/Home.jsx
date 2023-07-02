@@ -16,8 +16,6 @@ const HomePage = () => {
       <HighlightCase />
       <TeamMembers />
       <Enquiry />
-
-
     </div>
   )
 }

@@ -1,9 +1,10 @@
 #teamMembers {
-  height: 830px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0 186px;
 }
 
 #teamMembers .heading {
@@ -14,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  width: 90%;
+  width: 100%;
   height: 550px;
 }
 
@@ -24,8 +25,8 @@
   justify-content: center;
   background-color: rgb(221, 221, 221);
   border-radius: 150px;
-  height: 330px;
-  width: 240px;
+  height: 290px;
+  width: 200px;
 }
 
 .photo2,
@@ -34,49 +35,93 @@
 }
 
 #teamMembers h4 {
+  font-size: 1.5rem;
+  font-family: 'Cormorant Garamond', serif; 
   margin-bottom: 0;
+}
+
+#teamMembers p {
+  margin-top: 0;
 }
 
 .p1 {
   background-image: url(../images/teamPhoto/ankita.jpeg);
   background-size: cover;
-  border: 2px solid #DD6C90;
+  border: 2px solid #dd6c90;
   transition: box-shadow 0.2s linear;
 }
 
 .p1:hover {
-  box-shadow: 0 0 6px 3px rgb(182, 182, 182);
+  box-shadow: 0 0 6px 3px #dd6c9079;
 }
 
 .p2 {
   background-image: url(../images/teamPhoto/esther.png);
   background-size: cover;
-  border: 2px solid #5C69B8;
+  border: 2px solid #5c69b8;
   transition: box-shadow 0.2s linear;
 }
 
 .p2:hover {
-  box-shadow: 0 0 6px 3px rgb(182, 182, 182);;
+  box-shadow: 0 0 6px 3px #5c68b879;
 }
 
 .p3 {
   background-image: url(../images/teamPhoto/inano.jpeg);
   background-size: cover;
-  border: 2px solid #676A46;
+  border: 2px solid #676a46;
   transition: box-shadow 0.2s linear;
 }
 
 .p3:hover {
-  box-shadow: 0 0 6px 3px rgb(182, 182, 182);;
+  box-shadow: 0 0 6px 3px #676a4681;
 }
 
 .p4 {
   background-image: url(../images/teamPhoto/tina.jpg);
   background-size: cover;
-  border: 2px solid #F18639;
+  border: 2px solid #f18639;
   transition: box-shadow 0.2s linear;
 }
 
 .p4:hover {
-  box-shadow: 0 0 6px 3px rgb(182, 182, 182);;
+  box-shadow: 0 0 6px 3px #f186397b;
+}
+
+#teamMembers .swipeText {
+  color: #B8A28A;
+  margin-top: 50px;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #teamMembers {
+    height: 700px;
+    padding: 0 20px;
+  }
+
+  #teamMembers .swiper {
+    width: 100%;
+  }
+
+  #teamMembers .teamMember1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #teamMembers .p1,
+  #teamMembers .p2,
+  #teamMembers .p3,
+  #teamMembers .p4 {
+    border-radius: 200px;
+    height: 350px;
+    width: 35%;
+  }
+}
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 }
