@@ -1,9 +1,9 @@
 import React from 'react';
-import Button from '../UI/Button'
+import Button from '../UI/Button';
 import { Link } from 'react-router-dom';
 
 import classes from './Landing.module.css';
-import '../../App.css'
+import '../../App.css';
 
 const LandingPage = () => {
   return (
@@ -25,23 +25,24 @@ const LandingPage = () => {
         <div className={classes.bottomLine}>
           <p className={`${classes.bigText} orange`}>UUNNNLEASH</p>
           <p className={classes.circle}>◯</p>
-          <p className={classes.bigText}>AMBITIOUS</p> 
+          <p className={classes.bigText}>AMBITIOUS</p>
           <p className={classes.circle}>◯</p>
-          <p className={`${classes.bigText} pink`}>GROWTH</p> 
+          <p className={`${classes.bigText} pink`}>GROWTH</p>
           <p className={classes.circle}>◯</p>
-          <p className={classes.bigText}>PASSION</p> 
+          <p className={classes.bigText}>PASSION</p>
           <p className={classes.circle}>◯</p>
           <p className={classes.bigText}>EMPOWER</p>
         </div>
       </div>
 
       <p className={classes.summary}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Integer feugiat
-        scelerisque varius.
+        We're dedicated to providing range of comprehensive services tailored
+        specifically to the needs of women-owned businesses.
       </p>
 
-      <Link to="/aboutus"><Button>Learn More</Button></Link>
+      <Link to="/aboutus">
+        <Button>Learn More</Button>
+      </Link>
     </div>
   );
 };

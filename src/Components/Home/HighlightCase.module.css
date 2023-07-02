@@ -40,19 +40,19 @@
 }
 
 #highlightCase .slide .case1 {
-  border-radius: 230px;
+  /* border-radius: 90px; */
 }
 
 #highlightCase .slide .case2 {
-  border-radius: 400px;
+  /* border-radius: 300px; */
 }
 
 #highlightCase .slide .case3 {
-  border-radius: 500px;
+  /* border-radius: 200px; */
 }
 
 #highlightCase .slide .case4 {
-  border-radius: 400px;
+  /* border-radius: 400px; */
 }
 
 /***************************************************/

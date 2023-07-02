@@ -7,7 +7,8 @@ const CaseStudies = () => {
   return (
     <div id={classes.caseStudies}>
       <h1 className={classes.heading}>
-        LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT
+        WE UPHOLD HIGH STANDARDS, EMBRACE CREATIVITY, STRIVE TO THE DIGITAL
+        BOUNDARIES
         <span className={classes.circle}>◯</span>
       </h1>
 
@@ -18,22 +19,22 @@ const CaseStudies = () => {
         </a>
       </Swiper>
       <div className={classes.details}>
-        <h2>PROJECT NAME</h2>
+        <h2 className="blue">POKE BATTLES</h2>
         <div className={classes.list}>
           <div>
-            <p>keywords</p>
+            <p>Fun</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Game Development</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Page Application</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Teamwork</p>
           </div>
         </div>
       </div>
@@ -46,22 +47,22 @@ const CaseStudies = () => {
         </a>
       </Swiper>
       <div className={classes.details}>
-        <h2>PROJECT NAME</h2>
+        <h2 className="pink">TIC-TAC-TOE</h2>
         <div className={classes.list}>
           <div>
-            <p>keywords</p>
+            <p>Game Development</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Multiplayer</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Fun</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Frontend</p>
           </div>
         </div>
       </div>
@@ -74,22 +75,22 @@ const CaseStudies = () => {
         </a>
       </Swiper>
       <div className={classes.details}>
-        <h2>PROJECT NAME</h2>
+        <h2 className="armyGreen">INANO'S PORTFOLIO</h2>
         <div className={classes.list}>
           <div>
-            <p>keywords</p>
+            <p>JavaScript</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>HTML</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>CSS</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>DOM</p>
           </div>
         </div>
       </div>
@@ -102,22 +103,22 @@ const CaseStudies = () => {
         </a>
       </Swiper>
       <div className={classes.details}>
-        <h2>PROJECT NAME</h2>
+        <h2 className="orange">TINA'S PORTFOLIO</h2>
         <div className={classes.list}>
           <div>
-            <p>keywords</p>
+            <p>React</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Single Page</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Responsive</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Interactive</p>
           </div>
         </div>
       </div>
@@ -130,22 +131,19 @@ const CaseStudies = () => {
         </a>
       </Swiper>
       <div className={classes.details}>
-        <h2>PROJECT NAME</h2>
+        <h2 className="blue">TIC-TAC-TOE</h2>
         <div className={classes.list}>
           <div>
-            <p>keywords</p>
+            <p>Game Development</p>
           </div>
-
           <div>
-            <p>keywords</p>
+            <p>Multiplayer</p>
           </div>
-
           <div>
-            <p>keywords</p>
+            <p>Fun</p>
           </div>
-
           <div>
-            <p>keywords</p>
+            <p>Frontend</p>
           </div>
         </div>
       </div>
@@ -158,26 +156,82 @@ const CaseStudies = () => {
         </a>
       </Swiper>
       <div className={classes.details}>
-        <h2>PROJECT NAME</h2>
+        <h2 className="pink">VOYAGE</h2>
         <div className={classes.list}>
           <div>
-            <p>keywords</p>
+            <p>Travel</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>CRUD App</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Planner</p>
           </div>
 
           <div>
-            <p>keywords</p>
+            <p>Event</p>
           </div>
         </div>
       </div>
-      {/* END OF WHOLE SEGMENT 56*/}
+      {/* END OF WHOLE SEGMENT 6*/}
+
+      {/* START OF WHOLE SEGMENT 7*/}
+      <Swiper className={`mySwiper ${classes.swiper}`}>
+        <a href="https://inanoknowles.github.io/">
+          <div className={classes.case7}></div>
+        </a>
+      </Swiper>
+      <div className={classes.details}>
+        <h2 className="armyGreen">NOTING</h2>
+        <div className={classes.list}>
+          <div>
+            <p>To-Do List</p>
+          </div>
+
+          <div>
+            <p>Ruby</p>
+          </div>
+
+          <div>
+            <p>Sinatra</p>
+          </div>
+
+          <div>
+            <p>Branding</p>
+          </div>
+        </div>
+      </div>
+      {/* END OF WHOLE SEGMENT 7*/}
+
+      {/* START OF WHOLE SEGMENT 8*/}
+      <Swiper className={`mySwiper ${classes.swiper}`}>
+        <a href="https://inanoknowles.github.io/">
+          <div className={classes.case8}></div>
+        </a>
+      </Swiper>
+      <div className={classes.details}>
+        <h2 className="orange">GIPHYMAN</h2>
+        <div className={classes.list}>
+          <div>
+            <p>API</p>
+          </div>
+
+          <div>
+            <p>Game Development</p>
+          </div>
+
+          <div>
+            <p>Fun</p>
+          </div>
+
+          <div>
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+      {/* END OF WHOLE SEGMENT 8*/}
     </div>
   );
 };

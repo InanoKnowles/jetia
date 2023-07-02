@@ -10,6 +10,7 @@
 
 #enquiry h2, #enquiry h3 {
   font-family: 'Cormorant Garamond', serif; 
+  text-align: center;
 }
 
 #enquiry .letsChat {
@@ -19,7 +20,7 @@
 }
 
 #enquiry h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
@@ -43,7 +44,7 @@
 /* Mobile */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   #enquiry  {
-    height: 800px;
+    height: 850px;
     margin-bottom: 80px;
     padding: 0 10px;
   }
