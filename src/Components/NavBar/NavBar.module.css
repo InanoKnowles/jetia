@@ -86,6 +86,11 @@
 
   .mobileNavItems li:hover {
     background-color: #b8a28a2b;
+    text-decoration: none;
+  }
+
+  .mobileNavItems a:hover {
+    text-decoration: none;
   }
 
   .backdrop {

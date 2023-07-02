@@ -58,17 +58,17 @@ const NavBar = () => {
             <div className={classes.mobileNavItems}>
               <ul>
                 <li>
-                  <Link to="/" className={classes.listText}>
+                  <Link onClick={deactivateMenuHandler} to="/" className={classes.listText}>
                     HOME
                   </Link>
                 </li>
                 <li>
-                  <Link to="/aboutme" className={classes.listText}>
+                  <Link onClick={deactivateMenuHandler} to="/aboutus" className={classes.listText}>
                     ABOUT US
                   </Link>
                 </li>
                 <li>
-                  <Link to="/projects" className={classes.listText}>
+                  <Link onClick={deactivateMenuHandler} to="/casestudies" className={classes.listText}>
                     WORK
                   </Link>
                 </li>
