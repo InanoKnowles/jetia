@@ -79,6 +79,7 @@ We specialise in the digital design and creative approach to helping women trans
             <li>Copywriting</li>
           </ul>
         </MediaQuery>
+        
         <MediaQuery minWidth={320} maxWidth={600}>
           <ul>
             <li>Market Research</li>

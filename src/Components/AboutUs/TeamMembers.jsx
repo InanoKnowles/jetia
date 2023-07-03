@@ -60,7 +60,7 @@ const TeamMember = () => {
             <p>
               <span className={classes.memberName}>ANKITA</span>
               <br></br>
-              <span id={classes.consultancyName}>DataAnalyst</span>
+              <span id={classes.consultancyName}>Data Analyst</span>
             </p>
           </div>
         </div>

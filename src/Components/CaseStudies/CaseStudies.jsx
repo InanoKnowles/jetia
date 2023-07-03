@@ -14,7 +14,7 @@ const CaseStudies = () => {
 
       {/* START OF WHOLE SEGMENT 1*/}
       <Swiper className={`mySwiper ${classes.swiper}`}>
-        <a href="https://inanoknowles.github.io/">
+        <a href="#">
           <div className={classes.case1}></div>
         </a>
       </Swiper>
@@ -42,7 +42,7 @@ const CaseStudies = () => {
 
       {/* START OF WHOLE SEGMENT 2*/}
       <Swiper className={`mySwiper ${classes.swiper}`}>
-        <a href="https://inanoknowles.github.io/">
+        <a href="#">
           <div className={classes.case2}></div>
         </a>
       </Swiper>
@@ -70,7 +70,7 @@ const CaseStudies = () => {
 
       {/* START OF WHOLE SEGMENT 3*/}
       <Swiper className={`mySwiper ${classes.swiper}`}>
-        <a href="https://inanoknowles.github.io/">
+        <a href="#">
           <div className={classes.case3}></div>
         </a>
       </Swiper>
@@ -98,7 +98,7 @@ const CaseStudies = () => {
 
       {/* START OF WHOLE SEGMENT 4*/}
       <Swiper className={`mySwiper ${classes.swiper}`}>
-        <a href="https://inanoknowles.github.io/">
+        <a href="#">
           <div className={classes.case4}></div>
         </a>
       </Swiper>
@@ -126,7 +126,7 @@ const CaseStudies = () => {
 
       {/* START OF WHOLE SEGMENT 5*/}
       <Swiper className={`mySwiper ${classes.swiper}`}>
-        <a href="https://inanoknowles.github.io/">
+        <a href="#">
           <div className={classes.case5}></div>
         </a>
       </Swiper>
@@ -151,7 +151,7 @@ const CaseStudies = () => {
 
       {/* START OF WHOLE SEGMENT 6*/}
       <Swiper className={`mySwiper ${classes.swiper}`}>
-        <a href="https://inanoknowles.github.io/">
+        <a href="#">
           <div className={classes.case6}></div>
         </a>
       </Swiper>
@@ -179,7 +179,7 @@ const CaseStudies = () => {
 
       {/* START OF WHOLE SEGMENT 7*/}
       <Swiper className={`mySwiper ${classes.swiper}`}>
-        <a href="https://inanoknowles.github.io/">
+        <a href="#">
           <div className={classes.case7}></div>
         </a>
       </Swiper>
@@ -207,7 +207,7 @@ const CaseStudies = () => {
 
       {/* START OF WHOLE SEGMENT 8*/}
       <Swiper className={`mySwiper ${classes.swiper}`}>
-        <a href="https://inanoknowles.github.io/">
+        <a href="#">
           <div className={classes.case8}></div>
         </a>
       </Swiper>

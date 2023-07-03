@@ -14,7 +14,7 @@ const AboutUs = () => {
             <span className={classes.circle}>◯</span>
           </h2>
         </div>
-        <div id={classes.decription}>
+        <div id={classes.description}>
           <p>
             <strong>jetia</strong> is a leading tech-savvy product development
             agency in tech innovation, promoting gender equality, and making a

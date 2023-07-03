@@ -44,7 +44,7 @@ h2 .circle {
 	padding-right: 5px;
 }
 
-#decription {
+#description {
 	width: 75%;
 }
 
@@ -65,15 +65,36 @@ h2 .circle {
 /* Mobile */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	#aboutUs {
-		padding-left: 10px;
-		padding-right: 10px;
 		width: 25rem;
-    padding-top: 10px;
+		padding: 100px 30px 10px;
 	}
+	
 	#heading {
-		font-size: 2.2rem;
+		font-size: 2.3rem;
 	}
+
+	h2 .circle {
+		font-size: 2rem;
+	}
+	
+
 	#supportText {
-		font-size: 2.5rem;
+		margin-top: 30px;
+		font-size: 2rem;
+	}
+
+	#supportText .circle {
+		font-size: 2rem;
+	}
+
+
+	#whoWeAre {
+		font-weight: 700;
+		font-size: 2rem;
+		margin: 100px 0;
+	}
+
+	#description {
+		width: 100%;
 	}
 }
