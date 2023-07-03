@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 #landing .topLine,
@@ -59,13 +60,27 @@
 
 /* Mobile */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+  #landing {
+    padding-top: 140px;
+    height: 650px
+  }
+
   #landing .text {
     margin: 40px 0 10px;
   }
 
+  #landing .text > p:first-child {
+    font-size: 0.7rem;
+  }
+
   #landing .topLine,
   #landing .bottomLine {
-    font-size: 3.5rem;
+    font-size: 4rem;
+    height: 60px;
+  }
+
+  #landing .topLine {
+    margin-top: 15px;
   }
 
   #landing .summary {

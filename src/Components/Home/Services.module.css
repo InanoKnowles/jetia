@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 186px;
+  padding: 0 140px;
 }
 
 #services .heading {
@@ -27,7 +27,7 @@
 
 #services .block {
   height: 80px;
-  width: 150px;
+  width: 12%;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   width: 85%;
-  margin: 0 auto;
+  margin: 0 auto 40px;
 }
 
 #services .list {
@@ -62,16 +62,8 @@
 /***************************************************/
 /****************** MEDIA QUERIES ******************/
 /* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  #services {
-    height: 750px;
-    padding: 0 20px;
-  }
 
-  #services .summary {
-    width: 75%;
-  }
-
+@media only screen and (min-width: 481px) and (max-width: 1439px) {
   #services .woo {
     width: 80%;
   }
@@ -91,11 +83,26 @@
   }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+  #services {
+    height: 750px;
+    padding: 0 20px;
+  }
+
+  #services .summary {
+    width: 75%;
+  }
+}
+
 /* Mobile */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   #services {
     height: 1150px;
     padding: 0 10px;
+  }
+
+  #services .block {
+    width: 30%;
   }
 
   #services .logos {
@@ -104,10 +111,16 @@
     margin-top: 40px;
   }
 
-  #services .list {
-    margin-top: 20px;
+  #services .woo {
+    width: 70%;
   }
-  
+
+  #services .list {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+
   #services .list li {
     margin: 8px 0;
   }

@@ -134,43 +134,55 @@
 /* Mobile */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   #caseStudies {
-    padding: 0 10px;
     width: 100%;
+    padding: 28px 0px 10px 10px;
   }
 
   #caseStudies .heading {
-    font-size: 3rem;
+    font-size: 2.3rem;
     width: 100%;
     margin-top: 130px;
     padding: 0 20px;
   }
 
   #caseStudies .swiper {
-    border-top-right-radius: 80px;
-    border-bottom-right-radius: 80px;
-    width: 120%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 230px;
+    border-bottom-left-radius: 230px;
+    border-right: 0px;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   #caseStudies .details {
     margin-top: 20px;
     padding: 0 10px;
-    width: 90%;
+    width: 100%;
     flex-direction: column;
+    align-items: flex-end;
   }
 
   #caseStudies .details h2 {
-    margin-bottom: 0;
+    font-size: 2.1rem;
+   margin: 15px 15px 0 0 ;
   }
 
   #caseStudies .list {
+    margin-top: 15px;
+    margin-right: 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    font-size: 1rem;
     gap: 10px;
+    align-items: flex-end;
+  }
+
+  #caseStudies .list p {
+    margin: 0;
   }
 
   #caseStudies .circle {
-    font-size: 2.5rem;
-    display: inline;
-    margin-left: 15px;
+    font-size: 2rem;
   }
 }

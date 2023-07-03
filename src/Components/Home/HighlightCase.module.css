@@ -13,13 +13,13 @@
 }
 
 #highlightCase .swiper {
-  border: 2px solid #1B1728;
+  border: 2px solid #1b1728;
   border-radius: 220px;
   transition: border 0.05s linear, box-shadow 0.05s linear;
 }
 
 #highlightCase .case {
-  width: 99%;
+  width: 100%;
   background-color: white;
   height: 470px;
 
@@ -32,32 +32,61 @@
 
 #highlightCase .swiper:hover {
   border: 3px solid #676a46;
-  box-shadow: 0 0 6px 4px #676a467d
+  box-shadow: 0 0 6px 4px #676a467d;
 }
 
-#highlightCase .slide img {
+#highlightCase .slide {
   width: 100%;
 }
 
 #highlightCase .slide .case1 {
-  /* border-radius: 90px; */
+  background-image: url(../images/caseStudies/case1.png);
+  background-size: cover;
+  width: 100%;
 }
 
 #highlightCase .slide .case2 {
-  /* border-radius: 300px; */
+  background-image: url(../images/caseStudies/case2.png);
+  background-size: cover;
+  width: 100%;
 }
 
 #highlightCase .slide .case3 {
-  /* border-radius: 200px; */
+  background-image: url(../images/caseStudies/case3.png);
+  background-size: cover;
+  width: 100%;
 }
 
 #highlightCase .slide .case4 {
-  /* border-radius: 400px; */
+  background-image: url(../images/caseStudies/case4.png);
+  background-size: cover;
+  width: 100%;
 }
 
 /***************************************************/
 /****************** MEDIA QUERIES ******************/
 /* Tablet */
+@media only screen and (min-width: 767px) and (max-width: 1431px) {
+  #highlightCase .case {
+    height: 400px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 1080px) {
+  #highlightCase {
+    height: 700px;
+    padding: 0 30px;
+  }
+  #highlightCase .swiperDiv {
+    width: 90%;
+  }
+
+  #highlightCase .case {
+    height: 330px;
+  }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   #highlightCase {
     height: 700px;
@@ -93,11 +122,7 @@
   }
 
   #highlightCase .case {
-    height: 220px;
-  }
-
-  #highlightCase .slide img {
-    width: 110%;
+    height: 170px;
   }
 
   #highlightCase .swipeText {

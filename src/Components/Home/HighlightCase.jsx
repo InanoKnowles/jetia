@@ -18,27 +18,27 @@ const HighlightCase = () => {
       <h2>Highlights</h2>
 
       <div className={classes.swiperDiv}>
-        <Swiper className={`mySwiper ${classes.swiper}`} spaceBetween={50}>
+        <Swiper className={`mySwiper ${classes.swiper}`} spaceBetween={0}>
           <SwiperSlide className={classes.case}>
-            <div className={classes.slide}>
+            <div className={`${classes.slide} ${classes.case1}`}>
               <img className={classes.case1} src={case1} alt="" />
             </div>
           </SwiperSlide>
 
           <SwiperSlide className={classes.case}>
-            <div className={classes.slide}>
+          <div className={`${classes.slide} ${classes.case2}`}>
               <img className={classes.case2} src={case2} alt="" />
             </div>
           </SwiperSlide>
 
           <SwiperSlide className={classes.case}>
-            <div className={classes.slide}>
+          <div className={`${classes.slide} ${classes.case3}`}>
               <img className={classes.case3} src={case3} alt="" />
             </div>
           </SwiperSlide>
 
           <SwiperSlide className={classes.case}>
-            <div className={classes.slide}>
+          <div className={`${classes.slide} ${classes.case4}`}>
               <img className={classes.case4} src={case4} alt="" />
             </div>
           </SwiperSlide>
