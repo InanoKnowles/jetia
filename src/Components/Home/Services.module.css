@@ -1,36 +1,127 @@
 #services {
   text-align: center;
-  height: 600px;
+  height: 750px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 140px;
+}
 
-  /* To be removed */
-  border: 1px solid rgb(101, 101, 191);
+#services .heading {
+  margin-bottom: 40px;
 }
 
 #services .summary {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
+  line-height: 30px;
 }
 
-#services .blocks,
+#services .logos,
 .list {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 50px;
+  justify-content: space-between;
+  margin: 90px auto 0;
+  width: 90%;
 }
 
 #services .block {
   height: 80px;
-  width: 150px;
+  width: 12%;
   border-radius: 5px;
-  background-color: rgb(221, 221, 221);
+  display: flex;
+  align-items: center;
 }
+
+#services .logo {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto 40px;
+}
+
+#services .list {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
 #services ul {
   padding-left: 0;
 }
 
 #services li {
   list-style: none;
+  font-weight: 500;
+}
+
+#services .woo {
+  width: 100px;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Tablet */
+
+@media only screen and (min-width: 481px) and (max-width: 1439px) {
+  #services .woo {
+    width: 80%;
+  }
+
+  #services .logos {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  #services .list {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  #services .list li {
+    margin: 8px 0;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+  #services {
+    height: 750px;
+    padding: 0 20px;
+  }
+
+  #services .summary {
+    width: 75%;
+  }
+}
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #services {
+    height: 1150px;
+    padding: 0 10px;
+  }
+
+  #services .block {
+    width: 30%;
+  }
+
+  #services .logos {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  #services .woo {
+    width: 70%;
+  }
+
+  #services .list {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+
+  #services .list li {
+    margin: 8px 0;
+  }
 }

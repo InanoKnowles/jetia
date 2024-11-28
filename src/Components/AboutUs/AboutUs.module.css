@@ -1,5 +1,100 @@
 #aboutUs {
 	position: relative;
-	top: 90px;
-	height: 2000px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	overflow: hidden;
+	padding: 160px 186px 80px;
+}
+
+#supportText {
+	font-family: "Cormorant Garamond", serif;
+	font-weight: bolder;
+	margin-top: 250px;
+	font-size: 50px;
+}
+
+#supportText .circle {
+	font-size: 2.7rem;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+#heading {
+	font-family: "Cormorant Garamond", serif;
+	font-size: 4.5rem;
+	margin-top: 55px;
+}
+
+h2 .circle {
+	font-size: 4rem;
+	display: inline;
+	margin-left: 15px;
+}
+
+#whoWeAre {
+	font-family: "Cormorant Garamond", serif;
+	font-weight: 700;
+	font-size: 45px;
+	margin: 200px 0 100px;
+}
+
+.supportTextDesc {
+	padding-right: 5px;
+}
+
+#description {
+	width: 75%;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	#aboutUs {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 62px;
+	}
+	#heading {
+		font-size: 3rem;
+	}
+}
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	#aboutUs {
+		width: 25rem;
+		padding: 100px 30px 10px;
+	}
+	
+	#heading {
+		font-size: 2.3rem;
+	}
+
+	h2 .circle {
+		font-size: 2rem;
+	}
+	
+
+	#supportText {
+		margin-top: 30px;
+		font-size: 2rem;
+	}
+
+	#supportText .circle {
+		font-size: 2rem;
+	}
+
+
+	#whoWeAre {
+		font-weight: 700;
+		font-size: 2rem;
+		margin: 100px 0;
+	}
+
+	#description {
+		width: 100%;
+	}
 }

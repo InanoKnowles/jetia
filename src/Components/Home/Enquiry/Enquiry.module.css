@@ -1,15 +1,58 @@
 #enquiry {
   display: flex;
-  height: 750px;
+  height: 850px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 30px auto 50px;
+  padding: 0 186px;
+}
 
-  /* To be removed */
-  border: 1px solid rgb(101, 101, 191);
+#enquiry h2, #enquiry h3 {
+  font-family: 'Cormorant Garamond', serif; 
+  text-align: center;
+}
+
+#enquiry .letsChat {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+#enquiry h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 #enquiry .content {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #enquiry  {
+    height: 650px;
+    margin-bottom: 80px;
+    padding: 0 30px;
+  }
+}
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #enquiry  {
+    height: 850px;
+    margin-bottom: 80px;
+    padding: 0 10px;
+  }
+
+  #enquiry .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 }

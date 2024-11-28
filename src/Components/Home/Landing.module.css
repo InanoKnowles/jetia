@@ -8,20 +8,18 @@
   overflow: hidden;
   padding: 160px 0 80px;
   align-items: center;
-
-  /* To be removed */
-  border: 1px solid rgb(101, 101, 191);
 }
 
 #landing .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 #landing .topLine,
 #landing .bottomLine {
-  font-size: 3.5rem;
+  font-size: 5rem;
   overflow: hidden;
   display: flex;
   height: 86px;
@@ -36,6 +34,7 @@
   margin: 0 5px;
   color: grey;
   font-weight: 100;
+  font-size: 3rem;
 }
 
 #landing p {
@@ -43,9 +42,49 @@
   margin: 20px 0;
 }
 
-
 #landing .summary {
   width: 55%;
   line-height: 40px;
+  margin-top: 40px;
   margin-bottom: 80px;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #landing .summary {
+    width: 75%;
+  }
+}
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #landing {
+    padding-top: 140px;
+    height: 650px
+  }
+
+  #landing .text {
+    margin: 40px 0 10px;
+  }
+
+  #landing .text > p:first-child {
+    font-size: 0.7rem;
+  }
+
+  #landing .topLine,
+  #landing .bottomLine {
+    font-size: 4rem;
+    height: 60px;
+  }
+
+  #landing .topLine {
+    margin-top: 15px;
+  }
+
+  #landing .summary {
+    width: 80%;
+    margin-bottom: 50px;
+  }
 }

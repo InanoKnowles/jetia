@@ -1,30 +1,57 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 import 'swiper/css';
+import Button from '../UI/Button';
+import { Link } from 'react-router-dom';
+import MediaQuery from 'react-responsive';
+
 import classes from './HighlightCase.module.css';
+
+import case1 from '../images/caseStudies/case1.png';
+import case2 from '../images/caseStudies/case8.png';
+import case3 from '../images/caseStudies/case6.png';
+import case4 from '../images/caseStudies/case4.png';
 
 const HighlightCase = () => {
   return (
     <div id={classes.highlightCase}>
-      <h2>Highlight Case</h2>
+      <h2>Highlights</h2>
+
       <div className={classes.swiperDiv}>
-        <Swiper className={`mySwiper ${classes.swiper}`} spaceBetween={50}>
+        <Swiper className={`mySwiper ${classes.swiper}`} spaceBetween={0}>
           <SwiperSlide className={classes.case}>
-            img + text maybe on hover? - carousel{' '}
+            <div className={`${classes.slide} ${classes.case1}`}>
+              <img className={classes.case1} src={case1} alt="" />
+            </div>
           </SwiperSlide>
+
           <SwiperSlide className={classes.case}>
-            img + text maybe on hover? - carousel{' '}
+          <div className={`${classes.slide} ${classes.case2}`}>
+              <img className={classes.case2} src={case2} alt="" />
+            </div>
           </SwiperSlide>
+
           <SwiperSlide className={classes.case}>
-            img + text maybe on hover? - carousel{' '}
+          <div className={`${classes.slide} ${classes.case3}`}>
+              <img className={classes.case3} src={case3} alt="" />
+            </div>
           </SwiperSlide>
+
           <SwiperSlide className={classes.case}>
-            img + text maybe on hover? - carousel{' '}
+          <div className={`${classes.slide} ${classes.case4}`}>
+              <img className={classes.case4} src={case4} alt="" />
+            </div>
           </SwiperSlide>
         </Swiper>
+
+        <MediaQuery minWidth={320} maxWidth={768}>
+          <p className={classes.swipeText}>← Swipe to see →</p>
+        </MediaQuery>
       </div>
-      <button>View Our Work</button>
+
+      <Link to="/casestudies">
+        <Button>View Our Work</Button>
+      </Link>
     </div>
   );
 };

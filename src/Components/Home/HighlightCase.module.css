@@ -1,31 +1,27 @@
 #highlightCase {
-  height: 650px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  /* To be removed */
-  border: 1px solid rgb(101, 101, 191);
+  padding: 0 186px;
 }
 
 #highlightCase .swiperDiv {
-  width: 90%;
+  width: 100%;
+  margin: 30px 0 80px;
 }
 
 #highlightCase .swiper {
-  /* width: 100%; */
+  border: 2px solid #1b1728;
   border-radius: 220px;
-  /* margin: 5px; */
+  transition: border 0.05s linear, box-shadow 0.05s linear;
 }
 
 #highlightCase .case {
-  border: 1px solid white;
-  width: 99%;
+  width: 100%;
   background-color: white;
-  height: 450px;
-  border-radius: 220px;
-  /* margin: 5px; */
+  height: 470px;
 
   transition: border 0.2s linear;
 
@@ -34,6 +30,104 @@
   justify-content: center;
 }
 
-#highlightCase .case:hover {
-  border: 3px solid pink;
+#highlightCase .swiper:hover {
+  border: 3px solid #676a46;
+  box-shadow: 0 0 6px 4px #676a467d;
+}
+
+#highlightCase .slide {
+  width: 100%;
+}
+
+#highlightCase .slide .case1 {
+  background-image: url(../images/caseStudies/case1.png);
+  background-size: cover;
+  width: 100%;
+}
+
+#highlightCase .slide .case2 {
+  background-image: url(../images/caseStudies/case2.png);
+  background-size: cover;
+  width: 100%;
+}
+
+#highlightCase .slide .case3 {
+  background-image: url(../images/caseStudies/case3.png);
+  background-size: cover;
+  width: 100%;
+}
+
+#highlightCase .slide .case4 {
+  background-image: url(../images/caseStudies/case4.png);
+  background-size: cover;
+  width: 100%;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Tablet */
+@media only screen and (min-width: 767px) and (max-width: 1431px) {
+  #highlightCase .case {
+    height: 400px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 1080px) {
+  #highlightCase {
+    height: 700px;
+    padding: 0 30px;
+  }
+  #highlightCase .swiperDiv {
+    width: 90%;
+  }
+
+  #highlightCase .case {
+    height: 330px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #highlightCase {
+    height: 700px;
+    padding: 0 20px;
+  }
+
+  #highlightCase .swiperDiv {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  #highlightCase .case {
+    height: 280px;
+  }
+
+  #highlightCase .swipeText {
+    margin: 50px auto;
+    text-align: center;
+    color: #b8a28a;
+  }
+}
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #highlightCase {
+    height: 500px;
+    padding: 0 10px;
+  }
+
+  #highlightCase .swiperDiv {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+
+  #highlightCase .case {
+    height: 170px;
+  }
+
+  #highlightCase .swipeText {
+    margin: 50px auto;
+    text-align: center;
+    color: #b8a28a;
+  }
 }
